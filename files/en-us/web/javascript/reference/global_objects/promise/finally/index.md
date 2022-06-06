@@ -18,7 +18,7 @@ the _callback function_, to be called when the promise is settled.
 Like `then()` and `catch()`, it immediately returns an equivalent {{jsxref("Promise")}} object, 
 allowing you to chain calls to another promise method, an operation called _composition_.
 
-This helps to avoid duplicating code in both the promise's {{jsxref("Promise.then",
+This lets you avoid duplicating code in both the promise's {{jsxref("Promise.then",
   "then()")}} and {{jsxref("Promise.catch", "catch()")}} handlers.
 
 {{EmbedInteractiveExample("pages/js/promise-finally.html", "taller")}}
@@ -68,8 +68,8 @@ The `finally()` method is very similar to calling
     `Promise.reject(3).finally(() => 88)` will return a rejected promise 
     with the reason `3`.  
   - But, either `Promise.reject(3).finally(() => throw 99)` or
-    `Promise.reject(3).finally(() => Promise.reject(99))` will return a promise 
-    which will be rejected with `99`.
+    `Promise.reject(3).finally(() => Promise.reject(99))` will reject the returned promise 
+    with the reason `99`.
 
 > **Note:** A `throw` (or returning a rejected promise) in the
 > `finally` callback will reject the returned promise, with the reason
