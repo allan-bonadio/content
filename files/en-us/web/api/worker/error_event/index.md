@@ -30,7 +30,9 @@ onerror = (event) => { };
 
 ## Event type
 
-A generic {{domxref("Event")}}.
+A generic {{domxref("ErrorEvent")}}.  It should have a field `message`, which is the error message.  It also has fields `filename`, `lineno`, `colno`, and `erro`r, although some of those might be null.
+
+If you don't get these fields, and you're using webpack, see https://webpack.js.org/guides/web-workers/, or look up 'Web Workers' in the Webpack documentation.
 
 ## Example
 
@@ -39,8 +41,8 @@ The following code snippet creates a {{domxref("Worker")}} object using the {{do
 ```js
 const myWorker = new Worker('worker.js');
 
-myWorker.onerror = (event) => {
-  console.log('There is an error with your worker!');
+myWorker.onerror = (ev) => {
+  console.error(`Error in Worker: ${ev.filename}:${ev.lineno}:${ev.colno} - ${ev.message}`);
 }
 ```
 
