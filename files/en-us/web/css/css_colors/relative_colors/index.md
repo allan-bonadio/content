@@ -328,8 +328,10 @@ The full HTML is included below for reference. The most interesting parts are as
   <h1>Color palette generator</h1>
   <form>
     <div id="color-picker">
-      <label for="color">Select a base color:</label>
-      <input type="color" id="color" name="color" value="#ff0000" />
+      <label
+        >Select a base color:
+        <input type="color" name="color" value="#ff0000" />
+      </label>
     </div>
     <div>
       <fieldset>

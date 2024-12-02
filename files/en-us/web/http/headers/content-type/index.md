@@ -145,8 +145,10 @@ When forms don't involve file uploads and are using simpler fields, URL-encoded 
 
 ```html
 <form action="/submit" method="post">
-  <label for="comment">Comment:</label>
-  <input type="text" id="comment" name="comment" value="Hello!" />
+  <label
+    >Comment:
+    <input type="text" name="comment" value="Hello!" />
+  </label>
   <button type="submit">Submit</button>
 </form>
 ```

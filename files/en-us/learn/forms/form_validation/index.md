@@ -270,8 +270,10 @@ Now delete the contents of the `<body>` element, and replace it with the followi
       maxlength="6" />
   </div>
   <div>
-    <label for="number">How many would you like?</label>
-    <input type="number" id="number" name="amount" value="1" min="1" max="10" />
+    <label
+      >How many would you like?
+      <input type="number" name="amount" value="1" min="1" max="10" />
+    </label>
   </div>
   <div>
     <button>Submit</button>

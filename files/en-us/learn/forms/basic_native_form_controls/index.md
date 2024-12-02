@@ -144,12 +144,16 @@ Related checkbox items should use the same [`name`](/en-US/docs/Web/HTML/Element
         checked />
     </li>
     <li>
-      <label for="peas">Peas</label>
-      <input type="checkbox" id="peas" name="vegetable" value="peas" />
+      <label
+        >Peas
+        <input type="checkbox" name="vegetable" value="peas" />
+      </label>
     </li>
     <li>
-      <label for="cabbage">Cabbage</label>
-      <input type="checkbox" id="cabbage" name="vegetable" value="cabbage" />
+      <label
+        >Cabbage
+        <input type="checkbox" name="vegetable" value="cabbage" />
+      </label>
     </li>
   </ul>
 </fieldset>
@@ -183,12 +187,16 @@ Several radio buttons can be tied together. If they share the same value for the
       <input type="radio" id="soup" name="meal" value="soup" checked />
     </li>
     <li>
-      <label for="curry">Curry</label>
-      <input type="radio" id="curry" name="meal" value="curry" />
+      <label
+        >Curry
+        <input type="radio" name="meal" value="curry" />
+      </label>
     </li>
     <li>
-      <label for="pizza">Pizza</label>
-      <input type="radio" id="pizza" name="meal" value="pizza" />
+      <label
+        >Pizza
+        <input type="radio" name="meal" value="pizza" />
+      </label>
     </li>
   </ul>
 </fieldset>

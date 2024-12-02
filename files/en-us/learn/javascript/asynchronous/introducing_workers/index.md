@@ -113,8 +113,10 @@ The "index.html" file and the "style.css" files are already complete:
   </head>
 
   <body>
-    <label for="quota">Number of primes:</label>
-    <input type="text" id="quota" name="quota" value="1000000" />
+    <label
+      >Number of primes:
+      <input type="text" name="quota" value="1000000" />
+    </label>
 
     <button id="generate">Generate primes</button>
     <button id="reload">Reload</button>

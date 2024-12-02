@@ -78,8 +78,10 @@ Suppose our HTML declares a `<form>` element:
 ```html
 <form id="userinfo">
   <p>
-    <label for="username">Enter your name:</label>
-    <input type="text" id="username" name="username" value="Dominic" />
+    <label
+      >Enter your name:
+      <input type="text" name="username" value="Dominic" />
+    </label>
   </p>
   <p>
     <label for="avatar">Select an avatar</label>
