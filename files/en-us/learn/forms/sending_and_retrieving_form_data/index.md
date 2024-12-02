@@ -293,8 +293,10 @@ For example:
 ```html
 <form method="post" action="https://www.foo.com" enctype="multipart/form-data">
   <div>
-    <label for="file">Choose a file</label>
-    <input type="file" id="file" name="myFile" />
+    <label
+      >Choose a file
+      <input type="file" name="myFile" />
+    </label>
   </div>
   <div>
     <button>Send the file</button>

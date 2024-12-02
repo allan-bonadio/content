@@ -183,8 +183,10 @@ Several radio buttons can be tied together. If they share the same value for the
   <legend>What is your favorite meal?</legend>
   <ul>
     <li>
-      <label for="soup">Soup</label>
-      <input type="radio" id="soup" name="meal" value="soup" checked />
+      <label
+        >Soup
+        <input type="radio" name="meal" value="soup" checked />
+      </label>
     </li>
     <li>
       <label

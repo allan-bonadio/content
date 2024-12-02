@@ -85,8 +85,10 @@ The `accept` attribute takes as its value a string containing one or more of the
 ```html
 <form method="post" enctype="multipart/form-data">
   <div>
-    <label for="file">Choose file to upload</label>
-    <input type="file" id="file" name="file" multiple />
+    <label
+      >Choose file to upload
+      <input type="file" name="file" multiple />
+    </label>
   </div>
   <div>
     <button>Submit</button>

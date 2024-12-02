@@ -33,8 +33,10 @@ Try playing the audio, then adjusting the playback rate, then enabling and disab
 </div>
 
 <div>
-  <label for="pitch">Preserve pitch:</label>
-  <input type="checkbox" id="pitch" name="pitch" checked />
+  <label
+    >Preserve pitch:
+    <input type="checkbox" name="pitch" checked />
+  </label>
 </div>
 ```
 

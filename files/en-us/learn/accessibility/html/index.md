@@ -302,12 +302,16 @@ You essentially get this behavior for free, just by using the appropriate elemen
 
 <form>
   <div>
-    <label for="name">Fill in your name:</label>
-    <input type="text" id="name" name="name" />
+    <label
+      >Fill in your name:
+      <input type="text" name="name" />
+    </label>
   </div>
   <div>
-    <label for="age">Enter your age:</label>
-    <input type="text" id="age" name="age" />
+    <label
+      >Enter your age:
+      <input type="text" name="age" />
+    </label>
   </div>
   <div>
     <label for="mood">Choose your mood:</label>
@@ -410,8 +414,10 @@ The following is a much better example:
 
 ```html example-good
 <div>
-  <label for="name">Fill in your name:</label>
-  <input type="text" id="name" name="name" />
+  <label
+    >Fill in your name:
+    <input type="text" name="name" />
+  </label>
 </div>
 ```
 

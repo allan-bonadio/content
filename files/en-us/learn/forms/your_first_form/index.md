@@ -94,12 +94,16 @@ In terms of HTML code we need something like the following to implement these fo
 ```html
 <form action="/my-handling-form-page" method="post">
   <p>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="user_name" />
+    <label
+      >Name:
+      <input type="text" name="user_name" />
+    </label>
   </p>
   <p>
-    <label for="mail">Email:</label>
-    <input type="email" id="mail" name="user_email" />
+    <label
+      >Email:
+      <input type="email" name="user_email" />
+    </label>
   </p>
   <p>
     <label for="msg">Message:</label>
@@ -270,12 +274,16 @@ Let's look at some of our form code again:
 ```html
 <form action="/my-handling-form-page" method="post">
   <p>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="user_name" />
+    <label
+      >Name:
+      <input type="text" name="user_name" />
+    </label>
   </p>
   <p>
-    <label for="mail">Email:</label>
-    <input type="email" id="mail" name="user_email" />
+    <label
+      >Email:
+      <input type="email" name="user_email" />
+    </label>
   </p>
   <p>
     <label for="msg">Message:</label>
@@ -301,13 +309,17 @@ Congratulations, you've built your first web form. It looks like this live:
 ```html hidden
 <form action="/my-handling-form-page" method="post">
   <div>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="user_name" />
+    <label
+      >Name:
+      <input type="text" name="user_name" />
+    </label>
   </div>
 
   <div>
-    <label for="mail">Email:</label>
-    <input type="email" id="mail" name="user_email" />
+    <label
+      >Email:
+      <input type="email" name="user_email" />
+    </label>
   </div>
 
   <div>

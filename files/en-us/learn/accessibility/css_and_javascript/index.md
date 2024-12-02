@@ -169,8 +169,10 @@ Elements to allow users to input data into websites:
 
 ```html
 <div>
-  <label for="name">Enter your name</label>
-  <input type="text" id="name" name="name" />
+  <label
+    >Enter your name
+    <input type="text" name="name" />
+  </label>
 </div>
 ```
 

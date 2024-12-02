@@ -31,8 +31,10 @@ To create an options page, write an HTML file defining the page. This page can i
 
   <body>
     <form>
-      <label for="color">Favorite color</label>
-      <input type="text" id="color" name="color" />
+      <label
+        >Favorite color
+        <input type="text" name="color" />
+      </label>
       <button type="submit">Save</button>
     </form>
     <script src="options.js"></script>

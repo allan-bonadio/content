@@ -110,8 +110,10 @@ When `multiple` is set on the {{HTMLElement("input/file", "file")}} input type, 
       multiple />
   </p>
   <p>
-    <label for="text">Pick a text file to upload: </label>
-    <input type="file" id="text" name="text" accept=".txt" />
+    <label
+      >Pick a text file to upload:
+      <input type="file" name="text" accept=".txt" />
+    </label>
   </p>
   <p>
     <input type="submit" value="Submit" />

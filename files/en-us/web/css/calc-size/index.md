@@ -477,16 +477,22 @@ The HTML contains a {{htmlelement("form")}} element containing three textual `<i
 ```html
 <form>
   <div>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" maxlength="48" />
+    <label
+      >Name:
+      <input type="text" name="name" maxlength="48" />
+    </label>
   </div>
   <div>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" maxlength="48" />
+    <label
+      >Email:
+      <input type="email" name="email" maxlength="48" />
+    </label>
   </div>
   <div>
-    <label for="address">Address:</label>
-    <input type="text" id="address" name="address" maxlength="60" />
+    <label
+      >Address:
+      <input type="text" name="address" maxlength="60" />
+    </label>
   </div>
 </form>
 ```

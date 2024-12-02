@@ -169,13 +169,17 @@ The HTML is only slightly more involved than the example we used in [the first a
   <h1>to: Mozilla</h1>
 
   <div id="from">
-    <label for="name">from:</label>
-    <input type="text" id="name" name="user_name" />
+    <label
+      >from:
+      <input type="text" name="user_name" />
+    </label>
   </div>
 
   <div id="reply">
-    <label for="mail">reply:</label>
-    <input type="email" id="mail" name="user_email" />
+    <label
+      >reply:
+      <input type="email" name="user_email" />
+    </label>
   </div>
 
   <div id="message">

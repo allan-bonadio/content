@@ -36,8 +36,10 @@ You can do this either for an entire form, or for specific input elements in a f
 <form method="post" action="/form">
   …
   <div>
-    <label for="cc">Credit card:</label>
-    <input type="text" id="cc" name="cc" autocomplete="off" />
+    <label
+      >Credit card:
+      <input type="text" name="cc" autocomplete="off" />
+    </label>
   </div>
 </form>
 ```

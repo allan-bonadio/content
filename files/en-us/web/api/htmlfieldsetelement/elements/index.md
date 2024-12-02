@@ -24,12 +24,16 @@ An {{domxref("HTMLCollection")}}.
   <fieldset id="my-fieldset">
     <legend>My fieldset</legend>
     <p>
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" />
+      <label
+        >Username:
+        <input type="text" name="username" />
+      </label>
     </p>
     <p>
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password" />
+      <label
+        >Password:
+        <input type="password" name="password" />
+      </label>
     </p>
     <p>
       <input type="checkbox" id="remember-me" name="remember-me" />

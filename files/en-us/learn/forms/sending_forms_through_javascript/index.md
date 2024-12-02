@@ -84,8 +84,10 @@ Suppose our HTML declares a `<form>` element:
     </label>
   </p>
   <p>
-    <label for="avatar">Select an avatar</label>
-    <input type="file" id="avatar" name="avatar" required />
+    <label
+      >Select an avatar
+      <input type="file" name="avatar" required />
+    </label>
   </p>
   <input type="submit" value="Submit" />
 </form>

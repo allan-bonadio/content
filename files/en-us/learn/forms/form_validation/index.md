@@ -354,8 +354,10 @@ First, some HTML:
     </datalist>
   </p>
   <p>
-    <label for="t2">What's your email address?</label>
-    <input type="email" id="t2" name="email" />
+    <label
+      >What's your email address?
+      <input type="email" name="email" />
+    </label>
   </p>
   <p>
     <label for="t3">Leave a short message</label>

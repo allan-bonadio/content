@@ -98,8 +98,10 @@ The value returned by reading `spellcheck` may not reflect the actual state of s
 ```html
 <form>
   <div>
-    <label for="uname">Choose a username: </label>
-    <input type="text" id="uname" name="name" />
+    <label
+      >Choose a username:
+      <input type="text" name="name" />
+    </label>
   </div>
   <div>
     <button>Submit</button>
@@ -205,8 +207,10 @@ You can use the [`required`](/en-US/docs/Web/HTML/Element/input#required) attrib
 ```html
 <form>
   <div>
-    <label for="uname">Choose a username: </label>
-    <input type="text" id="uname" name="name" required />
+    <label
+      >Choose a username:
+      <input type="text" name="name" required />
+    </label>
     <span class="validity"></span>
   </div>
   <div>

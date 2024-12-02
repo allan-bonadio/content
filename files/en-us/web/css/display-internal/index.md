@@ -65,12 +65,16 @@ The following example demonstrates laying out a simple form using CSS table layo
 ```html
 <main>
   <div>
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" />
+    <label
+      >Name
+      <input type="text" name="name" />
+    </label>
   </div>
   <div>
-    <label for="age">Age</label>
-    <input type="text" id="age" name="age" />
+    <label
+      >Age
+      <input type="text" name="age" />
+    </label>
   </div>
 </main>
 ```
