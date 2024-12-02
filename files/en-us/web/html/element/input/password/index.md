@@ -94,7 +94,7 @@ Here we see the most basic password input, with a label established using the {{
 ```html
 <label>
   Password:
-  <input type="password" />
+  <input id="userPassword" type="password" />
 </label>
 ```
 
@@ -116,7 +116,7 @@ To allow the user's password manager to automatically enter the password, specif
 ```html
 <label>
   Password:
-  <input type="password" autocomplete="current-password" />
+  <input id="userPassword" type="password" autocomplete="current-password" />
 </label>
 ```
 
@@ -129,7 +129,7 @@ To tell the user's browser that the password field must have a valid value befor
 ```html
 <label>
   Password:
-  <input type="password" required />
+  <input id="userPassword" type="password" required />
 </label>
 <input type="submit" value="Submit" />
 ```
@@ -143,7 +143,7 @@ If your recommended (or required) password syntax rules would benefit from an al
 ```html
 <label>
   PIN:
-  <input type="password" inputmode="numeric" />
+  <input id="pin" type="password" inputmode="numeric" />
 </label>
 ```
 
@@ -157,6 +157,7 @@ As usual, you can use the [`minlength`](/en-US/docs/Web/HTML/Element/input#minle
 <label>
   PIN:
   <input
+    id="pin"
     type="password"
     inputmode="numeric"
     minlength="4"
@@ -176,7 +177,7 @@ As with other textual entry controls, you can use the {{domxref("HTMLInputElemen
 ```html
 <label>
   Password:
-  <input type="password" size="12" />
+  <input id="userPassword" type="password" size="12" />
 </label>
 <button id="selectAll">Select All</button>
 ```
@@ -227,6 +228,7 @@ This example only accepts input which matches the format for a [valid United Sta
   SSN:
   <input
     type="password"
+    id="ssn"
     inputmode="numeric"
     minlength="9"
     maxlength="12"

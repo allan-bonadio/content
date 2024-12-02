@@ -244,47 +244,55 @@ In this example, we have a {{htmlelement("fieldset")}} with four radio buttons. 
   <legend>Change the value of <code>--theme</code></legend>
   <ol>
     <li>
-      <input type="radio" name="selection" value="red" id="red" />
-      <label for="red">--theme: red;</label>
+      <label>
+        <input type="radio" name="selection" value="red" id="red" />
+        --theme: red;
+      </label>
     </li>
     <li>
-      <input type="radio" name="selection" value="green" id="green" />
-      <label for="green">--theme: green</label>
+      <label>
+        <input type="radio" name="selection" value="green" id="green" />
+        --theme: green
+      </label>
     </li>
     <li>
-      <input type="radio" name="selection" value="blue" id="blue" />
-      <label for="blue">--theme: blue</label>
+      <label>
+        <input type="radio" name="selection" value="blue" id="blue" />
+        --theme: blue
+      </label>
     </li>
     <li>
-      <input type="radio" name="selection" value="currentcolor" id="other" />
-      <label for="other">Other</label>
+      <label>
+        <input type="radio" name="selection" value="currentcolor" id="other" />
+        Other
+      </label>
       <label>
         color:
-        <input text="checkbox" name="selection" value="currentcolor" />
+        <input name="selection" value="currentcolor" id="color" />
       </label>
     </li>
   </ol>
 </fieldset>
-<output>I change colors</output>
+<div style="height: 1em" um-why="spacer otherwise output overlaps"></div>
+<output> - I change colors. - </output>
 ```
 
 JavaScript updates the value of the CSS `--theme` variable on the {{htmlelement("body")}} element, which is an ancestor of the {{htmlelement("fieldset")}} and {{htmlelement("output")}} elements, whenever a radio button is selected. When the text `<input>` is updated, the {{domxref("HTMLInputElement.value", "value")}} of the `other` radio button is updated only if the `other` radio button is checked, which in turn updates the value of `--theme`.
 
 ```js
 const radios = document.querySelectorAll('input[name="selection"]');
-const body = document.querySelector("body");
 const other = document.getElementById("other");
 const color = document.getElementById("color");
 
 for (let i = 0; i < radios.length; i++) {
   radios[i].addEventListener("change", (e) => {
-    body.style.setProperty("--theme", e.target.value);
+    document.body.style.setProperty("--theme", e.target.value);
   });
 }
 color.addEventListener("input", (e) => {
   other.style.setProperty("value", e.target.value);
   if (other.checked) {
-    body.style.setProperty("--theme", e.target.value);
+    document.body.style.setProperty("--theme", e.target.value);
   }
 });
 ```
@@ -311,7 +319,7 @@ The first style feature query is a custom property with no value. This query typ
 ```css
 @container style(--theme) {
   output {
-    outline: 5px dotted var(--theme);
+    border: 5px dotted var(--theme);
     color: #777;
   }
 }
@@ -335,7 +343,7 @@ The second style query states that when `--theme` is equivalent to `red`, the `<
 }
 ```
 
-{{EmbedLiveSample('example','100%','200')}}
+{{EmbedLiveSample('example','100%','250')}}
 
 Try entering different color values into the text box. You may notice that values that are sRGB equivalents of `red` will make the `<output>` red — as it matches `style(--theme: red)` — while removing the outline, because `style(--theme)` returns false if the element's value for `--theme` is the same as the initial value for `--theme` defined by the `@property` at-rule. Any non-red sRGB valid color value, including `currentcolor` or `hsl(180 100% 50%)`, etc., makes the first style query return true; they are values that are different from the `initial-value`.
 

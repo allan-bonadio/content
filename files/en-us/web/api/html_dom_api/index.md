@@ -339,7 +339,7 @@ The HTML for the form looks like this:
   <p>
     <label>
       Your name:
-      <input type="text" required />
+      <input type="text" id="userName" required />
     </label>
     (*)
   </p>

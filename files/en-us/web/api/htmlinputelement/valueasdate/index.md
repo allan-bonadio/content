@@ -32,10 +32,10 @@ We include an `<input>` of type `week`:
 <label>
   Pick a date and time:
 
-  <input name="date" type="week" />
+  <input name="date1" id="date1" type="week" />
 </label>
 
-<pre id="log"></pre>
+<pre id="log1"></pre>
 ```
 
 #### JavaScript
@@ -43,13 +43,13 @@ We include an `<input>` of type `week`:
 When no date or time is selected, the empty input resolves to `null`. Each time a selection is made, a {{domxref("HTMLElement/change_event", "change")}} event is fired, updating the `<pre>` content showing the {{DOMXref("HTMLInputElement.value")}} of the form control compared to that value as a date.
 
 ```js
-const logElement = document.getElementById("log");
-const inputElement = document.getElementById("date");
+const logElement = document.getElementById("log1");
+const inputElement = document.getElementById("date1");
 
 logElement.innerText = `Initial value: ${inputElement.valueAsDate}`;
 
 inputElement.addEventListener("change", () => {
-  logElement.innerText = `${inputElement.value} resolves to ${inputElement.valueAsDate}`;
+  logElement.innerText = `${inputElement.value} resolves to ${inputElement.valueAsDate.toLocaleDateString("en-US")}`;
 });
 ```
 
@@ -65,6 +65,8 @@ inputElement.addEventListener("change", () => {
 
 {{EmbedLiveSample("Retrieving a date value", "", 100)}}
 
+The week selector might display somewhat strangely depending on what you have the first day of the week set to. Or, it might not be implemented yet. Check the {{HTMLElement("input/week")}} compatibility table.
+
 ### Using Date methods
 
 This example demonstrates applying {{jsxref("Date")}} methods directly to the `valueAsDate` property of an `<input>` of type {{HTMLElement("input/date", "date")}}.
@@ -77,10 +79,10 @@ We include an `<input>` of type `date`:
 <label>
   Pick a date:
 
-  <input name="date2" type="date" />
+  <input name="date2" id="date2" type="date" />
 </label>
 
-<pre id="log"></pre>
+<pre id="log2"></pre>
 ```
 
 #### JavaScript
@@ -88,7 +90,7 @@ We include an `<input>` of type `date`:
 When no date is selected, the empty string resolves to `null`. Each time a selection is made, a {{domxref("HTMLElement/change_event", "change")}} event is fired. We then populate the log with the date selected, formatted using the `Date` object's {{jsxref("Date.prototype.toLocaleDateString()", "toLocaleDateString()")}} method.
 
 ```js
-const logElement = document.getElementById("log");
+const logElement = document.getElementById("log2");
 const inputElement = document.getElementById("date2");
 const options = {
   weekday: "long",
@@ -97,13 +99,14 @@ const options = {
   day: "numeric",
 };
 
+inputElement.valueAsDate = new Date(); // set to right now
 logElement.innerText = `Initial value: ${inputElement.valueAsDate}`;
 
 inputElement.addEventListener("change", () => {
-  if (inputElement.valueAsDate !== null) {
+  if (inputElement.valueAsDate) {
     logElement.innerText = `You selected ${inputElement.valueAsDate.toLocaleDateString("en-US", options)}`;
   } else {
-    logElement.innerText = `${inputElement.value} resolves to ${inputElement.valueAsDate}`;
+    logElement.innerText = `Unfortunately, ${inputElement.valueAsDate} resolves to ${inputElement.valueAsDate}`;
   }
 });
 ```

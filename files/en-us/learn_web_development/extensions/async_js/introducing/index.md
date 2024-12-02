@@ -87,7 +87,7 @@ The program below uses a very inefficient algorithm to generate multiple large p
 ```html
 <label>
   Number of primes:
-  <input type="text" name="quota" value="1000000" />
+  <input type="text" id="quota" name="quota" value="1000000" />
 </label>
 
 <button id="generate">Generate primes</button>

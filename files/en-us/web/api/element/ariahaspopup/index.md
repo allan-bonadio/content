@@ -41,6 +41,7 @@ In this example, the `aria-haspopup` attribute on the element with an ID of `ani
   <label>
     Animal
     <input
+      id="animal"
       type="text"
       role="combobox"
       aria-autocomplete="list"

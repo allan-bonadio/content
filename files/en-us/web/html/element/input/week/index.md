@@ -227,15 +227,17 @@ The HTML looks like so:
   <div class="fallbackWeekPicker">
     <div>
       <span>
-        <label for="week">Week:</label>
-        <select id="fallbackWeek" name="week"></select>
+        <label>Week:</label>
+          <select id="fallbackWeek" name="week"></select>
+        </label>
       </span>
       <span>
-        <label for="year">Year:</label>
-        <select id="year" name="year">
-          <option value="2017" selected>2017</option>
-          <option value="2018">2018</option>
-        </select>
+        <label>Year:
+          <select id="year" name="year">
+            <option value="2017" selected>2017</option>
+            <option value="2018">2018</option>
+          </select>
+        </label>
       </span>
     </div>
   </div>

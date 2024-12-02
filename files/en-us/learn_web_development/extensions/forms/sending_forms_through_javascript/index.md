@@ -35,14 +35,14 @@ async function sendData(data) {
   // Construct a FormData instance
   const formData = new FormData();
 
-  // Add a text field
-  formData.append("name", "Pomegranate");
+  // Add a text field with a default username
+  formData.append("username", "Pomegranate");
 
-  // Add a file
+  // Add a file to be used as an icon
   const selection = await window.showOpenFilePicker();
   if (selection.length > 0) {
-    const file = await selection[0].getFile();
-    formData.append("file", file);
+    const avatarFile = await selection[0].getFile();
+    formData.append("avatar", avatarFile);
   }
 
   try {
@@ -85,7 +85,7 @@ Suppose our HTML declares a `<form>` element:
   </p>
   <p>
     <label>
-      Select an avatar
+      Select an avatar file
       <input type="file" name="avatar" required />
     </label>
   </p>

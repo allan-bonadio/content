@@ -28,7 +28,7 @@ A non-negative number.
 <!-- use selectionStart on non text input element -->
 <label>
   selectionStart property on type=color
-  <input type="color" />
+  <input id="color" type="color" />
 </label>
 
 <!-- use selectionStart on text input element -->
@@ -36,7 +36,10 @@ A non-negative number.
   <legend>selectionStart property on type=text</legend>
   <label>
     Select 'mdn' word from the text :
-    <input type="text" value="The mdn is a documentation repository." />
+    <input
+      type="text"
+      id="statement"
+      value="The mdn is a documentation repository." />
   </label>
   <button id="statement-btn">Select mdn text</button>
 </fieldset>

@@ -30,14 +30,14 @@ Try playing the audio, then adjusting the playback rate, then enabling and disab
 <div>
   <label>
     Adjust playback rate:
-    <input type="range" min="0.25" max="3" step="0.05" value="1" />
+    <input type="range" id="rate" min="0.25" max="3" step="0.05" value="1" />
   </label>
 </div>
 
 <div>
   <label>
     Preserve pitch:
-    <input type="checkbox" name="pitch" checked />
+    <input type="checkbox" id="pitch" name="pitch" checked />
   </label>
 </div>
 ```

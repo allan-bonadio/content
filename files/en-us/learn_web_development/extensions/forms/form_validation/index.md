@@ -464,9 +464,7 @@ We'll start with some HTML (feel free to put this in a blank HTML file; use a fr
 
 ```html
 <form>
-  <label for="mail">
-    I would like you to provide me with an email address:
-  </label>
+  <label> I would like you to provide me with an email address: </label>
   <input type="email" id="mail" name="mail" />
   <button>Submit</button>
 </form>
@@ -510,7 +508,7 @@ We start with the HTML {{htmlelement("form")}} below.
 <form>
   <label>
     Email address (@example.com only):
-    <input type="email" />
+    <input type="email" id="mail" />
   </label>
   <button>Submit</button>
 </form>
@@ -718,7 +716,7 @@ The HTML is almost the same; we just removed the HTML validation features.
 ```html
 <form>
   <p>
-    <label for="mail">
+    <label>
       <span>Please enter an email address:</span>
       <input type="text" id="mail" name="mail" />
       <span class="error" aria-live="polite"></span>

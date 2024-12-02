@@ -21,7 +21,7 @@ Given the following HTML:
 ```html
 <label>
   Which planet were you born on?
-  <input type="text" value="Azarath" />
+  <input type="text" id="planet" value="Azarath" />
 </label>
 ```
 

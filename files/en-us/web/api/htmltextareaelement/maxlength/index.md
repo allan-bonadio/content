@@ -25,7 +25,7 @@ Given the following HTML:
 <p>
   <label>
     Comment
-    <textarea minlength="10" maxlength="200" /></textarea>
+    <textarea id="comment" inlength="10" maxlength="200" /></textarea>
   </label>
 </p>
 ```

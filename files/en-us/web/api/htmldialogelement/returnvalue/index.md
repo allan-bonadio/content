@@ -60,6 +60,7 @@ The reset button has an event handler that closes the dialog; it has no impact o
     const dialog = document.getElementById("favDialog");
     const text = document.getElementById("text");
     const reset = document.querySelector("[type='reset']");
+    const submit = document.querySelector("[type='submit']");
     dialog.returnValue = "initialValue";
 
     function openCheck(dialog) {
@@ -71,7 +72,7 @@ The reset button has an event handler that closes the dialog; it has no impact o
     }
 
     function handleUserInput(returnValue) {
-      if (!returnValue) {
+      if (!returnValue || returnValue == "initialValue") {
         text.innerText += ". There was no return value";
       } else {
         text.innerText += ". Return value: " + returnValue;
@@ -86,6 +87,10 @@ The reset button has an event handler that closes the dialog; it has no impact o
     });
 
     reset.addEventListener("click", () => {
+      dialog.close();
+    });
+
+    submit.addEventListener("click", () => {
       dialog.close();
     });
 

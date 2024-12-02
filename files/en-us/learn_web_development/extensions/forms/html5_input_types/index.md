@@ -200,6 +200,7 @@ Let's look at the code behind the above example, so you can see how it's done. F
   <input
     type="range"
     name="price"
+    id="price"
     min="50000"
     max="500000"
     step="1000"

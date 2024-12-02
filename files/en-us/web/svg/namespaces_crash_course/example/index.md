@@ -198,7 +198,9 @@ cy='150' r='7' fill='#0000ff' fill-opacity='0.5'/>
     // Mote::capVelocity() — Apply an upper limit
     // on mote velocity.
     Mote.prototype.capVelocity = function () {
-      const max = parseInt(document.getElementById('max_velocity').value);
+      const max = parseInt(document.getElementById(
+        'max_velocity'
+      ).value);
 
       if (max < this.vx) {
         this.vx = max;

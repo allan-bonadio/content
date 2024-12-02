@@ -30,6 +30,7 @@ In this example the `aria-expanded` attribute on the element with an ID of `anim
   <label>
     Animal
     <input
+      id="animal"
       type="text"
       role="combobox"
       aria-autocomplete="list"

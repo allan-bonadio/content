@@ -126,12 +126,26 @@ Let's say our envelope has attack and release. We can allow the user to control 
 ```html
 <label>
   Attack
-  <input name="attack" type="range" min="0" max="1" value="0.2" step="0.1" />
+  <input
+    id="attack"
+    name="attack"
+    type="range"
+    min="0"
+    max="1"
+    value="0.2"
+    step="0.1" />
 </label>
 
 <label>
   Release
-  <input name="release" type="range" min="0" max="1" value="0.5" step="0.1" />
+  <input
+    id="release"
+    name="release"
+    type="range"
+    min="0"
+    max="1"
+    value="0.5"
+    step="0.1" />
 </label>
 ```
 
@@ -244,11 +258,25 @@ For the UI controls, let's expose both frequencies of our oscillators, allowing 
 ```html
 <label>
   Hz
-  <input name="hz" type="range" min="660" max="1320" value="880" step="1" />
+  <input
+    id="hz"
+    name="hz"
+    type="range"
+    min="660"
+    max="1320"
+    value="880"
+    step="1" />
 </label>
 <label>
   LFO
-  <input name="lfo" type="range" min="20" max="40" value="30" step="1" />
+  <input
+    id="lfo"
+    name="lfo"
+    type="range"
+    min="20"
+    max="40"
+    value="30"
+    step="1" />
 </label>
 ```
 
@@ -384,12 +412,26 @@ On the UI, we'll expose the noise duration and the frequency we want to band, al
 ```html
 <label>
   Duration
-  <input name="duration" type="range" min="0" max="2" value="1" step="0.1" />
+  <input
+    id="duration"
+    name="duration"
+    type="range"
+    min="0"
+    max="2"
+    value="1"
+    step="0.1" />
 </label>
 
 <label>
   Band
-  <input name="band" type="range" min="400" max="1200" value="1000" step="5" />
+  <input
+    id="band"
+    name="band"
+    type="range"
+    min="400"
+    max="1200"
+    value="1000"
+    step="5" />
 </label>
 ```
 
@@ -521,7 +563,14 @@ The {{domxref("AudioBufferSourceNode")}} comes with a [`playbackRate`](/en-US/do
 ```html
 <label>
   Rate
-  <input name="rate" type="range" min="0.1" max="2" value="1" step="0.1" />
+  <input
+    id="rate"
+    name="rate"
+    type="range"
+    min="0.1"
+    max="2"
+    value="1"
+    step="0.1" />
 </label>
 ```
 

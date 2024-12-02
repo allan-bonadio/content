@@ -84,7 +84,7 @@ This example allows you to choose a color. Once a choice is made, the {{cssxref(
 <div id="box">
   <label>
     Border color:
-    <input type="color" value="#8888ff" />
+    <input type="color" id="colorPicker" value="#8888ff" />
   </label>
   <output></output>
 </div>

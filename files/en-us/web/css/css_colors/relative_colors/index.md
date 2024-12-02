@@ -636,14 +636,16 @@ The HTML for the example is shown below.
     </p>
   </section>
   <form>
-    <label for="hue-adjust">Adjust the hue:</label>
-    <input
-      type="range"
-      name="hue-adjust"
-      id="hue-adjust"
-      value="240"
-      min="0"
-      max="360" />
+    <label>
+      Adjust the hue:
+      <input
+        type="range"
+        name="hue-adjust"
+        id="hue-adjust"
+        value="240"
+        min="0"
+        max="360" />
+    </label>
   </form>
 </main>
 ```
@@ -766,7 +768,7 @@ function setHue(e) {
 
 The output is shown below. Relative CSS colors are being used here to control the color scheme of an entire UI, which can be adjusted live as a single value is modified.
 
-{{ EmbedLiveSample("Live UI color scheme updater", "100%", "400") }}
+{{ EmbedLiveSample("Live UI color scheme updater", "100%", "530") }}
 
 ## See also
 

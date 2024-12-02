@@ -27,9 +27,10 @@ In this example, the log displays the current value as the user enters data into
 We include an {{htmlelement("input")}} and an associated {{htmlelement("label")}}, with a {{htmlelement("pre")}} container for our output.
 
 ```html
-<label for="given-name">Your name:</label>
-
-<input name="given-name" id="given-name" />
+<label>
+  Your name:
+  <input name="given-name" id="given-name" />
+</label>
 
 <pre id="log"></pre>
 ```
@@ -70,8 +71,7 @@ We include an `<input>` of type `color`:
 ```html
 <label>
   Pick a color:
-
-  <input name="color" type="color" />
+  <input name="color" id="color" type="color" />
 </label>
 
 <pre id="log"></pre>

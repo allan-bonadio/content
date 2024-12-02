@@ -24,7 +24,7 @@ Given the following HTML:
 ```html
 <label>
   Which planet are you from?
-  <input type="text" list="superhero" />
+  <input type="text" id="planet" list="superhero" />
 </label>
 <datalist id="superhero">
   <option value="Azarath" />

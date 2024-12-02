@@ -121,7 +121,7 @@ The "index.html" file and the "style.css" files are already complete:
   <body>
     <label>
       Number of primes:
-      <input type="text" name="quota" value="1000000" />
+      <input type="text" id="quota" name="quota" value="1000000" />
     </label>
 
     <button id="generate">Generate primes</button>

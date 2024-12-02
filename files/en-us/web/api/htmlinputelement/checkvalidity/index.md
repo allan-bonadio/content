@@ -38,7 +38,7 @@ We include a form containing a required number field and two buttons: one to che
   <p>
     <label>
       Your (21 to 65)
-      <input type="number" name="age" required min="21" max="65" />
+      <input type="number" id="age" name="age" required min="21" max="65" />
     </label>
   </p>
   <p>

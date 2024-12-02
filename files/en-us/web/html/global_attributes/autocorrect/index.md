@@ -88,11 +88,11 @@ The bio does not specify a value for `autocorrect`, which means that it is enabl
 <button id="reset">Reset</button>
 <label>
   Name:
-  <input name="username" type="text" autocorrect="off" />
+  <input id="username" name="username" type="text" autocorrect="off" />
 </label>
 <label>
   Biography:
-  <textarea name="bio"></textarea>
+  <textarea id="bio" name="bio"></textarea>
 </label>
 ```
 

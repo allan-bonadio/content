@@ -84,7 +84,7 @@ We also provide a checkbox allowing you to toggle between this, and `transform-s
 <div class="checkbox">
   <label>
     <code>preserve-3d</code>
-    <input type="checkbox" checked />
+    <input type="checkbox" id="preserve" checked />
   </label>
 </div>
 ```

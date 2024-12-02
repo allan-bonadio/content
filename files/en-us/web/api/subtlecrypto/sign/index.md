@@ -215,6 +215,7 @@ The HTML defines an `<input>` element containing the text to be signed, and a bu
   Enter a message to sign:
   <input
     type="text"
+    id="message"
     name="message"
     size="25"
     value="The lion roars near dawn" />

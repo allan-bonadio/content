@@ -22,7 +22,7 @@ Given the following HTML:
 <p>
   <label>
     Which planet were you born on?
-    <input type="text" name="origin" />
+    <input type="text" id="planet" name="origin" />
   </label>
 </p>
 ```

@@ -117,7 +117,7 @@ Try the example by adding a name to the text box. The button will cause the name
 <ul id="nameList"></ul>
 <label>
   Enter your Name:
-  <input type="text" />
+  <input type="text" id="newName" />
 </label>
 <span
   role="button"

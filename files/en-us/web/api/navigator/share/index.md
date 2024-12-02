@@ -178,7 +178,7 @@ To share files, first test for and call {{domxref("navigator.canShare()")}}. The
 <div>
   <label>
     Select images to share:
-    <input type="file" accept="image/*" multiple />
+    <input id="files" type="file" accept="image/*" multiple />
   </label>
 </div>
 <button id="share" type="button">Share your images!</button>

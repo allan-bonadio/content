@@ -75,7 +75,7 @@ We include an `<input>` of type `datetime-local`:
 <label>
   Pick a date and time:
 
-  <input name="date" type="datetime-local" />
+  <input name="date" id="date" type="datetime-local" />
 </label>
 
 <pre id="log"></pre>
@@ -93,7 +93,7 @@ logElement.innerText = `Initial value: ${inputElement.valueAsNumber}`;
 
 inputElement.addEventListener("change", () => {
   const d = new Date(inputElement.valueAsNumber);
-  logElement.innerText = `${inputElement.value} resolves to ${inputElement.valueAsNumber}, \nwhich is ${d.toDateString()} at ${d.toTimeString()}`;
+  logElement.innerText = `${inputElement.value} resolves to ${inputElement.valueAsNumber}, which is \n${d.toDateString()} at ${d.toTimeString()}`;
 });
 ```
 
@@ -107,7 +107,7 @@ inputElement.addEventListener("change", () => {
 
 #### Results
 
-{{EmbedLiveSample("Retrieving a date value as a number", "", 100)}}
+{{EmbedLiveSample("Retrieving a date value as a number", "", 130)}}
 
 ## Specifications
 

@@ -32,6 +32,7 @@ In this example, the `aria-autocomplete` attribute on the element with an ID of 
   <label>
     Animal
     <input
+      id="animal"
       type="text"
       role="combobox"
       aria-autocomplete="inline"

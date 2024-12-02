@@ -1007,7 +1007,13 @@ Then a `lineTo()` call completes the path to _p2_.
 <div>
   <label>
     Radius:
-    <input name="radius" type="range" min="0" max="100" value="50" />
+    <input
+      name="radius"
+      type="range"
+      id="radius"
+      min="0"
+      max="100"
+      value="50" />
   </label>
   <label for="radius" id="radius-output">50</label>
 </div>

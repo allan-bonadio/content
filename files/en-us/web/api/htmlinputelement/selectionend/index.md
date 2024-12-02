@@ -28,7 +28,7 @@ A non-negative number.
 <!-- using selectionEnd on non text input element -->
 <label>
   selectionStart property on type=color
-  <input type="color" />
+  <input id="color" type="color" />
 </label>
 
 <!-- using selectionEnd on text input element -->
@@ -36,7 +36,7 @@ A non-negative number.
   <legend>selectionEnd property on type=text</legend>
   <label>
     Input PIN
-    <input type="text" value="impossible PIN: 102-12-145" />
+    <input type="text" id="pin" value="impossible PIN: 102-12-145" />
   </label>
   <button id="pin-btn" type="button">PIN correction</button>
 </fieldset>
@@ -45,7 +45,7 @@ A non-negative number.
 ### JavaScript
 
 ```js
-const colorEnd = document.getElementById("color");
+const colorEnd = document.getElementById("color"); // either
 const text = document.querySelector("#pin");
 const pinBtn = document.querySelector("#pin-btn");
 const validPinChecker = /[^\d{3}-\d{2}-\d{3}]/g;

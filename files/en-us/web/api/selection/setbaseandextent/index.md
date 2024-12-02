@@ -28,6 +28,7 @@ setBaseAndExtent(anchorNode, anchorOffset, focusNode, focusOffset)
     So for example, if the value is 0 the whole node is included.
     If the value is 1, the whole node minus the first child node is included.
     And so on.
+    If the offset is 4, the start is between nodes 3 and 4.
 
     If `anchorNode` is a {{domxref("Text")}} node, the offset refers to the number of characters from the start of the {{domxref("Node.textContent")}} that should be excluded from the selection.
 
@@ -37,7 +38,9 @@ setBaseAndExtent(anchorNode, anchorOffset, focusNode, focusOffset)
 
   - : The number of child nodes from the start of the focus node that should be included in the selection.
     So for example, if the value is 0 the whole node is excluded.
-    If the value is 1, the first child node is included. And so on.
+    If the value is 1, the first child node is included.
+    And so on.
+    If the offset is 4, the end is between nodes 3 and 4.
 
     If `focusNode` is a {{domxref("Text")}} node, the offset refers to the number of characters from the start of the {{domxref("Node.textContent")}} that should be included in the selection.
 
@@ -67,26 +70,30 @@ We also have a button that when pressed invokes a function that runs the `setBas
 ```html
 <h1>setBaseAndExtent example</h1>
 <div>
-  <p class="one">
-    <span>Fish</span><span>Dog</span><span>Cat</span><span>Bird</span>
-  </p>
-  <p>MIDDLE</p>
-  <p class="two">
-    <span>Car</span><span>Bike</span><span>Boat</span><span>Plane</span>
-  </p>
+  animals:
+  <div class="animals">
+    1:<span>Fish</span> 3:<span>Dog</span><span>Cat</span> 6:<span>Bird</span>
+  </div>
+  <br />
+  vehicles:
+  <div class="vehicles">
+    1:<span>Car</span> <span>Bike</span><span>Boat</span> 6:<span>Plane</span>
+  </div>
 </div>
 
 <div>
   <p>
     <label>
-      Anchor offset
-      <input name="aOffset" type="number" value="0" />
+      Anchor offset in animals
+      <input id="aOffset" name="aOffset" type="number" value="4" />
+      nodes excluded
     </label>
   </p>
   <p>
     <label>
-      Focus offset
-      <input name="fOffset" type="number" value="0" />
+      Focus offset in vehicles
+      <input id="fOffset" name="fOffset" type="number" value="4" />
+      nodes included
     </label>
   </p>
   <p><button>Capture selection</button></p>
@@ -96,13 +103,13 @@ We also have a button that when pressed invokes a function that runs the `setBas
 ```
 
 > [!NOTE]
-> There is intentionally no [whitespace](/en-US/docs/Web/API/Document_Object_Model/Whitespace) between the `<p class="one">` and `<p class="two">` start tags and the `<span>` start tags which follow them — to avoid the presence of text nodes that would affect the number of child nodes expected. (Even though those text nodes would be whitespace-only, they would still be additional child nodes; find out more from the [`Node.firstChild` example](/en-US/docs/Web/API/Node/firstChild#example)).
+> Text Nodes Count! So, in `p.animals`, the nodes are text&nbsp;'\n&nbsp;&nbsp;&nbsp;&nbsp;1:', &lt;span>Fish&lt;/span>, text&nbsp;'\n&nbsp;&nbsp;&nbsp;&nbsp;3:', &lt;span>Dog&lt;/span>, &lt;span>Cat&lt;/span>, text&nbsp;'\n&nbsp;&nbsp;&nbsp;&nbsp;6:', &lt;span>Bird&lt;/span>, text&nbsp;'\n&nbsp;&nbsp;'. This always includes text nodes that are entirely [whitespace](/en-US/docs/Web/API/Document_Object_Model/Whitespace), like between Car and Bike. The characters '1:', '3:' and '6:' are there to help you use the example; actually '3:' is in node 2. Find out more from the [`Node.firstChild` example](/en-US/docs/Web/API/Node/firstChild#example)).
 
 The JavaScript looks like so:
 
 ```js
-const one = document.querySelector(".one");
-const two = document.querySelector(".two");
+const animals = document.querySelector(".animals");
+const vehicles = document.querySelector(".vehicles");
 
 const aOffset = document.getElementById("aOffset");
 const fOffset = document.getElementById("fOffset");
@@ -116,18 +123,20 @@ let selection;
 button.onclick = () => {
   try {
     selection = document.getSelection();
-    selection.setBaseAndExtent(one, aOffset.value, two, fOffset.value);
+    selection.setBaseAndExtent(animals, aOffset.value, vehicles, fOffset.value);
     const text = selection.toString();
     output.textContent = text;
+    output.style.color = "black";
   } catch (e) {
     output.textContent = e.message;
+    output.style.color = "red";
   }
 };
 ```
 
 Play with the live example below, setting different offset values to see how this affects the selection.
 
-{{ EmbedLiveSample('Examples', '100%', 370) }}
+{{ EmbedLiveSample('Examples', '100%', 420) }}
 
 > [!NOTE]
 > You can find this [example on GitHub](https://github.com/chrisdavidmills/selection-api-examples/blob/master/setBaseAndExtent.html) ([see it live also](https://chrisdavidmills.github.io/selection-api-examples/setBaseAndExtent.html).)

@@ -299,6 +299,7 @@ The HTML looks like this:
       Enter your height — meters:
       <input
         type="number"
+        id="meters"
         name="meters"
         step="0.01"
         min="0"
@@ -311,12 +312,18 @@ The HTML looks like this:
     <span>Enter your height — </span>
     <label>
       feet:
-      <input type="number" name="feet" min="0" step="1" />
+      <input type="number" id="feet" name="feet" min="0" step="1" />
     </label>
     <span class="validity"></span>
     <label>
       inches:
-      <input type="number" name="inches" min="0" max="11" step="1" />
+      <input
+        type="number"
+        id="inches"
+        name="inches"
+        min="0"
+        max="11"
+        step="1" />
     </label>
     <span class="validity"></span>
   </div>

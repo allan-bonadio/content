@@ -108,14 +108,14 @@ These are the default values we have used in this example. However, we have also
   <li>
     <label>
       slide to adjust <code>border-width</code>
-      <input type="range" min="10" max="45" />
+      <input type="range" min="10" max="45" id="width" />
     </label>
     <output id="width-output">30px</output>
   </li>
   <li>
     <label>
       slide to adjust <code>border-image-slice</code>
-      <input type="range" min="10" max="45" />
+      <input type="range" min="10" max="45" id="slice" />
     </label>
     <output id="slice-output">30</output>
   </li>

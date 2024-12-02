@@ -25,7 +25,7 @@ Given the following HTML:
 <p>
   <label>
     Your password
-    <input type="password" minlength="8" maxlength="20" />
+    <input type="password" id="password" minlength="8" maxlength="20" />
   </label>
 </p>
 ```

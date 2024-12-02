@@ -162,14 +162,14 @@ Since `alarm()` returns a `Promise`, we can do everything with it that we could 
 <div>
   <label>
     Name:
-    <input type="text" name="name" size="4" value="Matilda" />
+    <input type="text" id="name" name="name" size="4" value="Matilda" />
   </label>
 </div>
 
 <div>
   <label>
     Delay:
-    <input type="text" name="delay" size="4" value="1000" />
+    <input type="text" id="delay" name="delay" size="4" value="1000" />
   </label>
 </div>
 

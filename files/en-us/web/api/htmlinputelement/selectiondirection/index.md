@@ -34,7 +34,7 @@ A string. It can have one of the following values:
 ```html
 <label>
   selectionDirection property
-  <input type="text" value="MDN" />
+  <input type="text" id="selectionDirection" value="MDN" />
 </label>
 <p id="direction"></p>
 ```

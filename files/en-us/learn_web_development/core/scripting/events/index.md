@@ -369,13 +369,13 @@ First, a simple HTML form that requires you to enter your first and last name:
   <div>
     <label>
       First name:
-      <input type="text" />
+      <input type="text" id="fname" />
     </label>
   </div>
   <div>
     <label>
       Last name:
-      <input type="text" />
+      <input type="text" id="lname" />
     </label>
   </div>
   <div>

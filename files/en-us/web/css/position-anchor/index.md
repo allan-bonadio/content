@@ -158,25 +158,29 @@ We have four anchors and two positioned elements, distinguished with different `
 
 <div class="infobox" id="infobox1">
   <form>
-    <label for="anchor1-anchor-select">Place infobox on:</label>
-    <select id="anchor1-anchor-select">
-      <option value="1">Anchor 1</option>
-      <option value="2">Anchor 2</option>
-      <option value="3">Anchor 3</option>
-      <option value="4">Anchor 4</option>
-    </select>
+    <label
+      >Place infobox on:
+      <select id="anchor1-anchor-select">
+        <option value="1">Anchor 1</option>
+        <option value="2">Anchor 2</option>
+        <option value="3">Anchor 3</option>
+        <option value="4">Anchor 4</option>
+      </select>
+    </label>
   </form>
 </div>
 
 <div class="infobox" id="infobox2">
   <form>
-    <label for="anchor2-anchor-select">Place infobox on:</label>
-    <select id="anchor2-anchor-select">
-      <option value="1">Anchor 1</option>
-      <option value="2">Anchor 2</option>
-      <option value="3">Anchor 3</option>
-      <option value="4">Anchor 4</option>
-    </select>
+    <label
+      >Place infobox on:
+      <select id="anchor2-anchor-select">
+        <option value="1">Anchor 1</option>
+        <option value="2">Anchor 2</option>
+        <option value="3">Anchor 3</option>
+        <option value="4">Anchor 4</option>
+      </select>
+    </label>
   </form>
 </div>
 ```
