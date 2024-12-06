@@ -138,14 +138,22 @@ In this example:
       name="zipForm"
       action="http://www.example.com/formresult.html"
       method="get">
-      <label for="timefield">Date and time:</label>
-      <input type="text" id="timefield" /><br />
-      <label for="name">Name:</label>
-      <input type="text" id="name" /><br />
-      <label for="address">Email address:</label>
-      <input type="text" id="address" /><br />
-      <label for="order">Order number:</label>
-      <input type="text" id="order" /><br />
+      <label
+        >Date and time:
+        <input type="text" /> </label
+      ><br />
+      <label
+        >Name:
+        <input type="text" /> </label
+      ><br />
+      <label
+        >Email address:
+        <input type="text" /> </label
+      ><br />
+      <label
+        >Order number:
+        <input type="text" /> </label
+      ><br />
       <input type="submit" name="submit" value="Submit Query" />
     </form>
   </body>

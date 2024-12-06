@@ -37,13 +37,17 @@ The color red is commonly used to indicate invalid input. People who have certai
 ```html
 <form>
   <div class="field">
-    <label for="url_input">Enter a URL:</label>
-    <input type="url" id="url_input" />
+    <label
+      >Enter a URL:
+      <input type="url" />
+    </label>
   </div>
 
   <div class="field">
-    <label for="email_input">Enter an email address:</label>
-    <input type="email" id="email_input" required />
+    <label
+      >Enter an email address:
+      <input type="email" required />
+    </label>
   </div>
 </form>
 ```

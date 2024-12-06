@@ -1223,8 +1223,10 @@ When including inputs, it is an accessibility requirement to add labels alongsid
 The following is an example of how to associate the `<label>` with an `<input>` element in the above style. You need to give the `<input>` an `id` attribute. The `<label>` then needs a `for` attribute whose value is the same as the input's `id`.
 
 ```html
-<label for="peas">Do you like peas?</label>
-<input type="checkbox" name="peas" id="peas" />
+<label
+  >Do you like peas?
+  <input type="checkbox" name="peas" />
+</label>
 ```
 
 ### Size

@@ -42,11 +42,15 @@ namedItem(name)
 
 ```html
 <form>
-  <label for="notes">Notes:</label>
-  <input id="notes" name="my-form-control" type="text" />
+  <label
+    >Notes:
+    <input name="my-form-control" type="text" />
+  </label>
 
-  <label for="start">Start date:</label>
-  <input id="start" name="my-form-control" type="date" />
+  <label
+    >Start date:
+    <input name="my-form-control" type="date" />
+  </label>
 </form>
 
 <div id="output"></div>

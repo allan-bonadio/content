@@ -215,8 +215,12 @@ In the example below we have styled some text inputs using CSS — you can see t
 
 ```html live-sample___form
 <form>
-  <div><label for="name">Name</label> <input id="name" type="text" /></div>
-  <div><label for="email">Email</label> <input id="email" type="email" /></div>
+  <div>
+    <label>Name <input type="text" /></label>
+  </div>
+  <div>
+    <label>Email <input type="email" /></label>
+  </div>
 
   <div class="buttons"><input type="submit" value="Submit" /></div>
 </form>

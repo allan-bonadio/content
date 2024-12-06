@@ -508,8 +508,10 @@ We start with the HTML {{htmlelement("form")}} below.
 
 ```html
 <form>
-  <label for="mail">Email address (@example.com only):</label>
-  <input type="email" id="mail" />
+  <label
+    >Email address (@example.com only):
+    <input type="email" />
+  </label>
   <button>Submit</button>
 </form>
 ```

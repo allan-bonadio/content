@@ -337,12 +337,17 @@ The HTML for the form looks like this:
 <p>Please provide the information below. Items marked with "*" are required.</p>
 <form action="" method="get">
   <p>
-    <label for="userName" required>Your name:</label>
-    <input type="text" id="userName" /> (*)
+    <label
+      >Your name:
+      <input type="text" required />
+    </label>
+    (*)
   </p>
   <p>
-    <label for="userEmail">Email:</label>
-    <input type="email" id="userEmail" />
+    <label
+      >Email:
+      <input type="email" />
+    </label>
   </p>
   <input type="submit" value="Send" id="sendButton" />
 </form>

@@ -64,8 +64,9 @@ In these examples, one without and one with the `&` nesting selector, the `<inpu
   <label for="name">Name:
     <input type="text" id="name" />
   </label>
-  <label for="email">email:</label>
-  <input type="text" id="email" />
+  <label>email:
+    <input type="text" />
+  </label>
 </form>
 ```
 
@@ -109,8 +110,9 @@ label {
   <label for="name">Name:
     <input type="text" id="name" />
   </label>
-  <label for="email">email:</label>
-  <input type="text" id="email" />
+  <label>email:
+    <input type="text" />
+  </label>
 </form>
 ```
 

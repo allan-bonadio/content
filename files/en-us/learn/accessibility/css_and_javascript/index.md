@@ -262,8 +262,10 @@ This kind of form validation is unobtrusive — you can still use the form absol
 We've made this form validation pretty accessible too. We've used {{htmlelement("label")}} elements to make sure the form labels are unambiguously linked to their inputs, so screen readers can read them out alongside:
 
 ```html
-<label for="name">Enter your name:</label>
-<input type="text" name="name" id="name" />
+<label
+  >Enter your name:
+  <input type="text" name="name" />
+</label>
 ```
 
 We only do the validation when the form is submitted — this is so that we don't update the UI too often and potentially confuse screen reader (and possibly other) users:

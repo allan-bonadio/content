@@ -25,8 +25,10 @@ selector::file-selector-button
 
 ```html
 <form>
-  <label for="fileUpload">Upload file</label>
-  <input type="file" id="fileUpload" />
+  <label
+    >Upload file
+    <input type="file" />
+  </label>
 </form>
 ```
 
@@ -67,8 +69,10 @@ Note that `::file-selector-button` is a whole element, and as such matches the r
 
 ```html
 <form>
-  <label for="fileUpload">Upload file</label>
-  <input type="file" id="fileUpload" />
+  <label
+    >Upload file
+    <input type="file" />
+  </label>
 </form>
 ```
 

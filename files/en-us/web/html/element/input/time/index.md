@@ -47,8 +47,10 @@ First, a look at the HTML. This is simple enough, with the label and input as we
 
 ```html
 <form>
-  <label for="startTime">Start time: </label>
-  <input type="time" id="startTime" />
+  <label
+    >Start time:
+    <input type="time" />
+  </label>
   <p>
     Value of the <code>time</code> input:
     <code>"<span id="value">n/a</span>"</code>.
