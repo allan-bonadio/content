@@ -61,18 +61,18 @@ The print controls allow the user to select how the `section`s in the `article` 
 <!-- print options -->
 <fieldset id="printStyle">
   <legend>How would you like to print</legend>
-  <label for="single"
-    ><input type="radio" id="single" name="type" value="single" checked />No
-    Pages</label
-  >
-  <label for="double"
-    ><input type="radio" id="grouped" name="type" value="grouped" />Pages with
-    Grouped Chapters</label
-  >
-  <label for="double"
-    ><input type="radio" id="paged" name="type" value="paged" />Chapters
-    Paged</label
-  >
+  <label>
+    <input type="radio" name="type" value="single" checked />
+    No Pages
+  </label>
+  <label>
+    <input type="radio" name="type" value="grouped" />
+    Pages with Grouped Chapters
+  </label>
+  <label>
+    <input type="radio" name="type" value="paged" />
+    Chapters Paged
+  </label>
   <button id="print">Print</button>
 </fieldset>
 <!-- Content to be printed -->

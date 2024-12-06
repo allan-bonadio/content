@@ -320,30 +320,27 @@ First, some HTML:
     <legend>
       Do you have a driver's license?<span aria-label="required">*</span>
     </legend>
-    <input type="radio" required name="driver" id="r1" value="yes" /><label
-      for="r1"
-      >Yes</label
-    >
-    <input type="radio" required name="driver" id="r2" value="no" /><label
-      for="r2"
-      >No</label
-    >
+    <label>
+      <input type="radio" required name="driver" value="yes" />Yes
+    </label>
+    <label> <input type="radio" required name="driver" value="no" />No </label>
   </fieldset>
   <p>
-    <label for="n1">How old are you?</label>
-    <input type="number" min="12" max="120" step="1" id="n1" name="age" />
+    <label
+      >How old are you?
+      <input type="number" min="12" max="120" step="1" name="age" />
+    </label>
   </p>
   <p>
-    <label for="t1"
-      >What's your favorite fruit?<span aria-label="required">*</span></label
-    >
-    <input
-      type="text"
-      id="t1"
-      name="fruit"
-      list="l1"
-      required
-      pattern="[Bb]anana|[Cc]herry|[Aa]pple|[Ss]trawberry|[Ll]emon|[Oo]range" />
+    <label
+      >What's your favorite fruit?<span aria-label="required">*</span>
+      <input
+        type="text"
+        name="fruit"
+        list="l1"
+        required
+        pattern="[Bb]anana|[Cc]herry|[Aa]pple|[Ss]trawberry|[Ll]emon|[Oo]range" />
+    </label>
     <datalist id="l1">
       <option>Banana</option>
       <option>Cherry</option>
