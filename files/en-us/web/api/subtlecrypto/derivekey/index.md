@@ -206,13 +206,14 @@ They can use this shared key to encrypt and decrypt messages they exchange.
 First we define an HTML {{HTMLElement("input")}} that you will use to enter the plaintext message that "Alice" will send, and a button that you can click to start the encryption process.
 
 ```html
-<label for="message">Plaintext message from Alice (Enter):</label>
-<input
-  type="text"
-  id="message"
-  name="message"
-  size="50"
-  value="The lion roars near dawn" />
+<label
+  >Plaintext message from Alice (Enter):
+  <input
+    type="text"
+    name="message"
+    size="50"
+    value="The lion roars near dawn" />
+</label>
 <input id="encrypt-button" type="button" value="Encrypt" />
 ```
 
@@ -220,23 +221,15 @@ This is followed by another two elements for displaying the ciphertext after Ali
 
 ```html
 <div id="results">
-  <label for="encrypted">Encrypted (Alice)</label>
-  <input
-    type="text"
-    id="encrypted"
-    name="encrypted"
-    size="30"
-    value=""
-    readonly />
+  <label
+    >Encrypted (Alice)
+    <input type="text" name="encrypted" size="30" value="" readonly />
+  </label>
 
-  <label for="results">Decrypted (Bob)</label>
-  <input
-    type="text"
-    id="decrypted"
-    name="decrypted"
-    size="50"
-    value=""
-    readonly />
+  <label
+    >Decrypted (Bob)
+    <input type="text" name="decrypted" size="50" value="" readonly />
+  </label>
 </div>
 ```
 

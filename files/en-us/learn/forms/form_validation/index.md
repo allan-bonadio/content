@@ -111,8 +111,10 @@ This example involves a basic text {{HTMLElement("input")}} with an associated {
 
 ```html
 <form>
-  <label for="choose">Would you prefer a banana or cherry?</label>
-  <input id="choose" name="i-like" />
+  <label
+    >Would you prefer a banana or cherry?
+    <input name="i-like" />
+  </label>
   <button>Submit</button>
 </form>
 ```
@@ -147,8 +149,10 @@ Add a `required` attribute to your input, as shown below.
 
 ```html
 <form>
-  <label for="choose">Would you prefer a banana or cherry? (required)</label>
-  <input id="choose" name="i-like" required />
+  <label
+    >Would you prefer a banana or cherry? (required)
+    <input name="i-like" required />
+  </label>
   <button>Submit</button>
 </form>
 ```
@@ -201,8 +205,10 @@ Update your HTML to add a [`pattern`](/en-US/docs/Web/HTML/Attributes/pattern) a
 
 ```html
 <form>
-  <label for="choose">Would you prefer a banana or a cherry?</label>
-  <input id="choose" name="i-like" required pattern="[Bb]anana|[Cc]herry" />
+  <label
+    >Would you prefer a banana or a cherry?
+    <input name="i-like" required pattern="[Bb]anana|[Cc]herry" />
+  </label>
   <button>Submit</button>
 </form>
 ```
@@ -260,14 +266,10 @@ Now delete the contents of the `<body>` element, and replace it with the followi
 ```html
 <form>
   <div>
-    <label for="choose">Would you prefer a banana or a cherry?</label>
-    <input
-      type="text"
-      id="choose"
-      name="i-like"
-      required
-      minlength="6"
-      maxlength="6" />
+    <label
+      >Would you prefer a banana or a cherry?
+      <input type="text" name="i-like" required minlength="6" maxlength="6" />
+    </label>
   </div>
   <div>
     <label

@@ -42,7 +42,7 @@ Try typing in the field below. If your browser supports this property, the chara
 #### HTML
 
 ```html
-<label for="name">Name:</label> <input type="text" name="name" id="name" />
+<label>Name: <input type="text" name="name" /> </label>
 ```
 
 #### CSS

@@ -31,11 +31,15 @@ In this example, the form will receive special coloring styles when either text 
 <p>Try typing into this form.</p>
 
 <form>
-  <label for="given_name">Given Name:</label>
-  <input id="given_name" type="text" />
+  <label
+    >Given Name:
+    <input type="text" />
+  </label>
   <br />
-  <label for="family_name">Family Name:</label>
-  <input id="family_name" type="text" />
+  <label
+    >Family Name:
+    <input type="text" />
+  </label>
 </form>
 ```
 

@@ -216,14 +216,15 @@ To use the `addItem()` method, edit the HTML in the `AppComponent` template.
 In `app.component.html`, replace the `<h2>` with the following:
 
 ```html
-<label for="addItemInput">What would you like to do today?</label>
+<label
+  >What would you like to do today?
 
-<input
-  #newItem
-  placeholder="add an item"
-  (keyup.enter)="addItem(newItem.value); newItem.value = ''"
-  class="lg-text-input"
-  id="addItemInput" />
+  <input
+    #newItem
+    placeholder="add an item"
+    (keyup.enter)="addItem(newItem.value); newItem.value = ''"
+    class="lg-text-input" />
+</label>
 
 <button class="btn-primary" (click)="addItem(newItem.value)">Add</button>
 ```

@@ -68,12 +68,10 @@ Possible values are:
     </label>
   </div>
   <div>
-    <label for="sentences">autocapitalize="sentences"</label>
-    <input
-      type="text"
-      id="sentences"
-      name="sentences"
-      autocapitalize="sentences" />
+    <label
+      >autocapitalize="sentences"
+      <input type="text" name="sentences" autocapitalize="sentences" />
+    </label>
   </div>
   <div>
     <label
@@ -82,12 +80,10 @@ Possible values are:
     </label>
   </div>
   <div>
-    <label for="characters">autocapitalize="characters"</label>
-    <input
-      type="text"
-      id="characters"
-      name="characters"
-      autocapitalize="characters" />
+    <label
+      >autocapitalize="characters"
+      <input type="text" name="characters" autocapitalize="characters" />
+    </label>
   </div>
   <div>
     <label for="characters-ta">autocapitalize="characters" on textarea</label>

@@ -314,14 +314,15 @@ We could go further with our ARIA usage, and provide some more validation help. 
 6. It might also be useful if we give screen reader users and sighted users an idea of what the age value should be. This is often presented as a tooltip or placeholder inside the form field. WAI-ARIA does include [`aria-valuemin`](/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-valuemin) and [`aria-valuemax`](/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-valuemax) properties to specify min and max values, and screen readers support the native `min` and `max` attributes. Another well-supported feature is the HTML `placeholder` attribute, which can contain a message that is shown in the input when no value is entered and is read out by a few screen readers. Update your number input like this:
 
    ```html
-   <label for="age">Your age:</label>
-   <input
-     type="number"
-     name="age"
-     id="age"
-     placeholder="Enter 1 to 150"
-     required
-     aria-required="true" />
+   <label
+     >Your age:
+     <input
+       type="number"
+       name="age"
+       placeholder="Enter 1 to 150"
+       required
+       aria-required="true" />
+   </label>
    ```
 
 Always include a {{HTMLelement('label')}} for every input. While some screen readers announce the placeholder text, most do not. Acceptable substitutions for providing form controls with an accessible name include [`aria-label`](/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label) and [`aria-labelledby`](/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-labelledby). But the `<label>` element with a `for` attribute is the preferred method as it provides usability for all users, including mouse users.

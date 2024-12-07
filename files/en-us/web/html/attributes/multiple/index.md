@@ -61,15 +61,16 @@ Setting `size="1"` on a multiple select can make it appear as a single select in
 ### email input
 
 ```html
-<label for="emails">Who do you want to email?</label>
-<input
-  type="email"
-  multiple
-  name="emails"
-  id="emails"
-  list="dwarf-emails"
-  required
-  size="64" />
+<label
+  >Who do you want to email?
+  <input
+    type="email"
+    multiple
+    name="emails"
+    list="dwarf-emails"
+    required
+    size="64" />
+</label>
 
 <datalist id="dwarf-emails">
   <option value="grumpy@woodworkers.com">Grumpy</option>
@@ -101,13 +102,14 @@ When `multiple` is set on the {{HTMLElement("input/file", "file")}} input type, 
 ```html
 <form method="post" enctype="multipart/form-data">
   <p>
-    <label for="uploads"> Choose the images you want to upload: </label>
-    <input
-      type="file"
-      id="uploads"
-      name="uploads"
-      accept=".jpg, .jpeg, .png, .svg, .gif"
-      multiple />
+    <label>
+      Choose the images you want to upload:
+      <input
+        type="file"
+        name="uploads"
+        accept=".jpg, .jpeg, .png, .svg, .gif"
+        multiple />
+    </label>
   </p>
   <p>
     <label

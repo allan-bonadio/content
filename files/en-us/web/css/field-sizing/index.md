@@ -82,12 +82,16 @@ The HTML in this example contains three form fields, each with an associated {{h
 
 ```html
 <div>
-  <label for="name">Enter name:</label>
-  <input type="text" id="name" maxlength="50" />
+  <label
+    >Enter name:
+    <input type="text" maxlength="50" />
+  </label>
 </div>
 <div>
-  <label for="email">Enter email:</label>
-  <input type="email" id="email" maxlength="50" placeholder="e.g. a@b.com" />
+  <label
+    >Enter email:
+    <input type="email" maxlength="50" placeholder="e.g. a@b.com" />
+  </label>
 </div>
 <div>
   <label for="comment">Enter comment:</label>

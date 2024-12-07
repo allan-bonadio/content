@@ -101,12 +101,16 @@ When the dialog is correctly labeled and focus is moved to an element (often an 
   <p id="dialog1Desc">We will not share this information with third parties.</p>
   <form>
     <p>
-      <label for="firstName">First Name</label>
-      <input id="firstName" type="text" />
+      <label
+        >First Name
+        <input type="text" />
+      </label>
     </p>
     <p>
-      <label for="lastName">Last Name</label>
-      <input id="lastName" type="text" />
+      <label
+        >Last Name
+        <input type="text" />
+      </label>
     </p>
     <p>
       <label for="interests">Interests</label>

@@ -1005,8 +1005,10 @@ Then a `lineTo()` call completes the path to _p2_.
 
 ```html
 <div>
-  <label for="radius">Radius: </label>
-  <input name="radius" type="range" id="radius" min="0" max="100" value="50" />
+  <label
+    >Radius:
+    <input name="radius" type="range" min="0" max="100" value="50" />
+  </label>
   <label for="radius" id="radius-output">50</label>
 </div>
 <canvas id="canvas"></canvas>

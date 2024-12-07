@@ -131,12 +131,16 @@ The following example shows date and time inputs:
 ```html
 <form>
   <div>
-    <label for="date">Enter a date:</label>
-    <input id="date" type="date" />
+    <label
+      >Enter a date:
+      <input type="date" />
+    </label>
   </div>
   <div>
-    <label for="time">Enter a time:</label>
-    <input id="time" type="time" />
+    <label
+      >Enter a time:
+      <input type="time" />
+    </label>
   </div>
 </form>
 ```

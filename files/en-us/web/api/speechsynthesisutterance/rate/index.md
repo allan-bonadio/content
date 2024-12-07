@@ -33,8 +33,10 @@ In this example we can adjust the playback rate using the slider, then play the 
 <p id="text">It was a dark and stormy night.</p>
 
 <div id="rate-control">
-  <label for="rate">Rate:</label>
-  <input type="range" min="0.5" max="2" value="1" step="0.1" id="rate" />
+  <label
+    >Rate:
+    <input type="range" min="0.5" max="2" value="1" step="0.1" />
+  </label>
 </div>
 
 <button id="play">Play</button>

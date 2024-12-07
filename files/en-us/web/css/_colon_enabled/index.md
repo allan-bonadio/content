@@ -25,11 +25,15 @@ The following example makes the color of text and button {{htmlElement("input")}
 
 ```html
 <form action="url_of_form">
-  <label for="FirstField">First field (enabled):</label>
-  <input type="text" id="FirstField" value="Lorem" /><br />
+  <label
+    >First field (enabled):
+    <input type="text" value="Lorem" /> </label
+  ><br />
 
-  <label for="SecondField">Second field (disabled):</label>
-  <input type="text" id="SecondField" value="Ipsum" disabled /><br />
+  <label
+    >Second field (disabled):
+    <input type="text" value="Ipsum" disabled /> </label
+  ><br />
 
   <input type="button" value="Submit" />
 </form>

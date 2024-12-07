@@ -32,8 +32,10 @@ The `:read-only` pseudo-class is used to remove all the styling that makes the i
   <fieldset>
     <legend>Check shipping details</legend>
     <div>
-      <label for="name">Name: </label>
-      <input id="name" name="name" type="text" value="Mr Soft" readonly />
+      <label
+        >Name:
+        <input name="name" type="text" value="Mr Soft" readonly />
+      </label>
     </div>
     <div>
       <label for="address">Address: </label>

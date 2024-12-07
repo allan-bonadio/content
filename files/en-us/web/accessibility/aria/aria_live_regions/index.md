@@ -213,8 +213,10 @@ Another example of `aria-atomic` - an update/notification made as a result of a 
 
 ```html
 <div id="date-input">
-  <label for="year">Year:</label>
-  <input type="text" id="year" value="1990" onblur="change(event)" />
+  <label
+    >Year:
+    <input type="text" value="1990" onblur="change(event)" />
+  </label>
 </div>
 
 <div id="date-output" aria-atomic="true" aria-live="polite">

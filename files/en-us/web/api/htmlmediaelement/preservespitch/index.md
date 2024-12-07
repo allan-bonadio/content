@@ -28,8 +28,10 @@ Try playing the audio, then adjusting the playback rate, then enabling and disab
   src="https://mdn.github.io/webaudio-examples/audio-basics/outfoxing.mp3"></audio>
 
 <div>
-  <label for="rate">Adjust playback rate:</label>
-  <input id="rate" type="range" min="0.25" max="3" step="0.05" value="1" />
+  <label
+    >Adjust playback rate:
+    <input type="range" min="0.25" max="3" step="0.05" value="1" />
+  </label>
 </div>
 
 <div>

@@ -56,24 +56,26 @@ The following snippet shows a simplified version of two form fields with a valid
 ```html
 <ul>
   <li>
-    <label for="name">Full Name</label>
-    <input
-      type="text"
-      name="name"
-      id="name"
-      aria-required="true"
-      aria-invalid="false"
-      onblur="checkValidity('name', ' ', 'Invalid name entered (requires both first and last name)');" />
+    <label
+      >Full Name
+      <input
+        type="text"
+        name="name"
+        aria-required="true"
+        aria-invalid="false"
+        onblur="checkValidity('name', ' ', 'Invalid name entered (requires both first and last name)');" />
+    </label>
   </li>
   <li>
-    <label for="email">Email Address</label>
-    <input
-      type="email"
-      name="email"
-      id="email"
-      aria-required="true"
-      aria-invalid="false"
-      onblur="checkValidity('email', '@', 'Invalid email address');" />
+    <label
+      >Email Address
+      <input
+        type="email"
+        name="email"
+        aria-required="true"
+        aria-invalid="false"
+        onblur="checkValidity('email', '@', 'Invalid email address');" />
+    </label>
   </li>
 </ul>
 ```

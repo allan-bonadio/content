@@ -195,15 +195,16 @@ It's important to properly configure your slider. To that end, it's highly recom
 Let's look at the code behind the above example, so you can see how it's done. First of all, the basic HTML:
 
 ```html
-<label for="price">Choose a maximum house price: </label>
-<input
-  type="range"
-  name="price"
-  id="price"
-  min="50000"
-  max="500000"
-  step="1000"
-  value="250000" />
+<label
+  >Choose a maximum house price:
+  <input
+    type="range"
+    name="price"
+    min="50000"
+    max="500000"
+    step="1000"
+    value="250000" />
+</label>
 <output class="price-output" for="price"></output>
 ```
 
@@ -245,8 +246,10 @@ HTML date controls are available to handle this specific kind of data, providing
 A date and time control is created using the {{HTMLElement("input")}} element and an appropriate value for the [`type`](/en-US/docs/Web/HTML/Element/input#type) attribute, depending on whether you wish to collect dates, times, or both. Here's a live example:
 
 ```html hidden live-sample___date1
-<label for="party">Choose a date and time for your party:</label>
-<input type="datetime-local" id="party" name="bday" />
+<label
+  >Choose a date and time for your party:
+  <input type="datetime-local" name="bday" />
+</label>
 <span class="validity"></span>
 ```
 

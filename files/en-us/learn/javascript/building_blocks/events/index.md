@@ -375,12 +375,16 @@ First, a simple HTML form that requires you to enter your first and last name:
 ```html
 <form>
   <div>
-    <label for="fname">First name: </label>
-    <input id="fname" type="text" />
+    <label
+      >First name:
+      <input type="text" />
+    </label>
   </div>
   <div>
-    <label for="lname">Last name: </label>
-    <input id="lname" type="text" />
+    <label
+      >Last name:
+      <input type="text" />
+    </label>
   </div>
   <div>
     <input id="submit" type="submit" />

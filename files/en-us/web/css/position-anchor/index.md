@@ -75,8 +75,10 @@ In this example, an {{htmlelement("output")}} is positioned relative to an ancho
 We include an [`<input type="range">`](/en-US/docs/Web/HTML/Element/input/range) element and an [`<output>`](/en-US/docs/Web/HTML/Element/output) element to display the value of the range. The value displayed in the `<output>` element is updated via JavaScript as the slider value changes.
 
 ```html
-<label for="slider">Change the value:</label>
-<input type="range" min="0" max="100" value="25" id="slider" />
+<label
+  >Change the value:
+  <input type="range" min="0" max="100" value="25" />
+</label>
 <output>25</output>
 ```
 

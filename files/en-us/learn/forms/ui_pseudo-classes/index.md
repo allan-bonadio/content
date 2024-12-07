@@ -64,12 +64,16 @@ One of the most basic concepts regarding client-side form validation is whether 
   <fieldset>
     <legend>Feedback form</legend>
     <div>
-      <label for="fname">First name: </label>
-      <input id="fname" name="fname" type="text" required />
+      <label
+        >First name:
+        <input name="fname" type="text" required />
+      </label>
     </div>
     <div>
-      <label for="lname">Last name: </label>
-      <input id="lname" name="lname" type="text" required />
+      <label
+        >Last name:
+        <input name="lname" type="text" required />
+      </label>
     </div>
     <div>
       <label for="email">
@@ -158,8 +162,10 @@ As previously mentioned, text inputs don't support generated content, so we add 
 
 ```html
 <div>
-  <label for="fname">First name: </label>
-  <input id="fname" name="fname" type="text" required />
+  <label
+    >First name:
+    <input name="fname" type="text" required />
+  </label>
   <span></span>
 </div>
 ```
@@ -221,8 +227,10 @@ As in the previous example, we've got extra `<span>`s to generate content on, wh
 
 ```html
 <div>
-  <label for="fname">First name: </label>
-  <input id="fname" name="fname" type="text" required />
+  <label
+    >First name:
+    <input name="fname" type="text" required />
+  </label>
   <span></span>
 </div>
 ```
@@ -281,8 +289,10 @@ The numeric input looks like this:
 
 ```html
 <div>
-  <label for="age">Age (must be 12+): </label>
-  <input id="age" name="age" type="number" min="12" max="120" required />
+  <label
+    >Age (must be 12+):
+    <input name="age" type="number" min="12" max="120" required />
+  </label>
   <span></span>
 </div>
 ```
@@ -341,12 +351,16 @@ Let's have a look at an example that does just this. First of all, the HTML is a
   <fieldset id="shipping">
     <legend>Shipping address</legend>
     <div>
-      <label for="name1">Name: </label>
-      <input id="name1" name="name1" type="text" required />
+      <label
+        >Name:
+        <input name="name1" type="text" required />
+      </label>
     </div>
     <div>
-      <label for="address1">Address: </label>
-      <input id="address1" name="address1" type="text" required />
+      <label
+        >Address:
+        <input name="address1" type="text" required />
+      </label>
     </div>
     <div>
       <label for="zip-code1">Zip/postal code: </label>
@@ -440,8 +454,10 @@ A fragment of the HTML is as follows — note the readonly attribute:
 
 ```html
 <div>
-  <label for="name">Name: </label>
-  <input id="name" name="name" type="text" value="Mr Soft" readonly />
+  <label
+    >Name:
+    <input name="name" type="text" value="Mr Soft" readonly />
+  </label>
 </div>
 ```
 

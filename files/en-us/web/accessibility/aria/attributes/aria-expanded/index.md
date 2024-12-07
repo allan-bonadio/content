@@ -42,8 +42,10 @@ When a [`menu`](/en-US/docs/Web/Accessibility/ARIA/Roles/menu_role) is displayed
 By default, some roles are hidden or collapsed and other roles are open or expanded by default. Elements with role [`combobox`](/en-US/docs/Web/Accessibility/ARIA/Roles/combobox_role) have a default value for `aria-expanded` of `false`. When a combobox popup is not visible, the element with role `combobox` has `aria-expanded` set to `false`. This is the default state. When the popup element is visible, `aria-expanded` should be set to `true`.
 
 ```html
-<label for="username">Username</label>
-<input id="username" name="username" aria-describedby="username-desc" />
+<label
+  >Username
+  <input name="username" aria-describedby="username-desc" />
+</label>
 <button
   aria-expanded="false"
   aria-controls="username-desc"

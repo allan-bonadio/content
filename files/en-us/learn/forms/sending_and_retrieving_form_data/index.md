@@ -94,12 +94,16 @@ Consider the following form:
 ```html
 <form action="http://www.foo.com" method="GET">
   <div>
-    <label for="say">What greeting do you want to say?</label>
-    <input name="say" id="say" value="Hi" />
+    <label
+      >What greeting do you want to say?
+      <input name="say" value="Hi" />
+    </label>
   </div>
   <div>
-    <label for="to">Who do you want to say it to?</label>
-    <input name="to" id="to" value="Mom" />
+    <label
+      >Who do you want to say it to?
+      <input name="to" value="Mom" />
+    </label>
   </div>
   <div>
     <button>Send my greetings</button>
@@ -138,12 +142,16 @@ Let's look at an example — this is the same form we looked at in the `GET` sec
 ```html
 <form action="http://www.foo.com" method="POST">
   <div>
-    <label for="say">What greeting do you want to say?</label>
-    <input name="say" id="say" value="Hi" />
+    <label
+      >What greeting do you want to say?
+      <input name="say" value="Hi" />
+    </label>
   </div>
   <div>
-    <label for="to">Who do you want to say it to?</label>
-    <input name="to" id="to" value="Mom" />
+    <label
+      >Who do you want to say it to?
+      <input name="to" value="Mom" />
+    </label>
   </div>
   <div>
     <button>Send my greetings</button>

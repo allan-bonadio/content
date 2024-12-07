@@ -26,14 +26,18 @@ A non-negative number.
 
 ```html
 <!-- using selectionEnd on non text input element -->
-<label for="color">selectionStart property on type=color</label>
-<input id="color" type="color" />
+<label
+  >selectionStart property on type=color
+  <input type="color" />
+</label>
 
 <!-- using selectionEnd on text input element -->
 <fieldset>
   <legend>selectionEnd property on type=text</legend>
-  <label for="pin">Input PIN</label>
-  <input type="text" id="pin" value="impossible PIN: 102-12-145" />
+  <label
+    >Input PIN
+    <input type="text" value="impossible PIN: 102-12-145" />
+  </label>
   <button id="pin-btn" type="button">PIN correction</button>
 </fieldset>
 ```

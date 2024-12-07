@@ -211,13 +211,14 @@ It is derived from [this source code on GitHub.](https://github.com/mdn/dom-exam
 The HTML defines an `<input>` element containing the text to be signed, and a button that starts the operation to create keys, sign the text and then verify the signature.
 
 ```html
-<label for="message">Enter a message to sign:</label>
-<input
-  type="text"
-  id="message"
-  name="message"
-  size="25"
-  value="The lion roars near dawn" />
+<label
+  >Enter a message to sign:
+  <input
+    type="text"
+    name="message"
+    size="25"
+    value="The lion roars near dawn" />
+</label>
 
 <input id="sign-button" type="button" value="Run" />
 ```

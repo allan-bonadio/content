@@ -22,8 +22,10 @@ An {{domxref("HTMLDataListElement")}} or `null`.
 Given the following HTML:
 
 ```html
-<label for="planet">Which planet are you from?</label>
-<input id="planet" type="text" list="superhero" />
+<label
+  >Which planet are you from?
+  <input type="text" list="superhero" />
+</label>
 <datalist id="superhero">
   <option value="Azarath" />
   <option value="Krypton" />

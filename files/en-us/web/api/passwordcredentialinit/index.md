@@ -75,20 +75,22 @@ The HTML declares a {{HTMLElement("form")}} containing three submittable element
 ```html
 <form>
   <div>
-    <label for="userid">Enter your user ID: </label>
-    <input type="text" name="userid" id="userid" autocomplete="username" />
+    <label
+      >Enter your user ID:
+      <input type="text" name="userid" autocomplete="username" />
+    </label>
   </div>
   <div>
-    <label for="username">Enter your username: </label>
-    <input type="text" name="username" id="username" autocomplete="name" />
+    <label
+      >Enter your username:
+      <input type="text" name="username" autocomplete="name" />
+    </label>
   </div>
   <div>
-    <label for="password">Enter your password: </label>
-    <input
-      type="password"
-      name="password"
-      id="password"
-      autocomplete="new-password" />
+    <label
+      >Enter your password:
+      <input type="password" name="password" autocomplete="new-password" />
+    </label>
   </div>
 </form>
 

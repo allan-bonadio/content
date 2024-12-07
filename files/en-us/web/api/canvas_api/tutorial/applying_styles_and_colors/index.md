@@ -420,8 +420,10 @@ function draw() {
     <td>
       Change the <code>miterLimit</code> by entering a new value below and
       clicking the redraw button.<br /><br />
-      <label for="miterLimit">Miter limit</label>
-      <input type="number" id="miterLimit" size="3" min="1" />
+      <label
+        >Miter limit
+        <input type="number" size="3" min="1" />
+      </label>
       <input type="submit" id="redraw" value="Redraw" />
     </td>
   </tr>

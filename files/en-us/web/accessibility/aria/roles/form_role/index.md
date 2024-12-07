@@ -51,23 +51,25 @@ No role specific keyboard interactions
 
 ```html
 <div role="form" id="send-comment" aria-label="Add a comment">
-  <label for="username">Username</label>
-  <input
-    id="username"
-    name="username"
-    autocomplete="nickname"
-    autocorrect="off"
-    type="text" />
+  <label
+    >Username
+    <input
+      name="username"
+      autocomplete="nickname"
+      autocorrect="off"
+      type="text" />
+  </label>
 
-  <label for="email">Email</label>
-  <input
-    id="email"
-    name="email"
-    autocomplete="email"
-    autocapitalize="off"
-    autocorrect="off"
-    spellcheck="false"
-    type="text" />
+  <label
+    >Email
+    <input
+      name="email"
+      autocomplete="email"
+      autocapitalize="off"
+      autocorrect="off"
+      spellcheck="false"
+      type="text" />
+  </label>
 
   <label for="comment">Comment</label>
   <textarea id="comment" name="comment"></textarea>

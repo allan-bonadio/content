@@ -42,8 +42,10 @@ When creating a range type role, including [`meter`](/en-US/docs/Web/Accessibili
 Use semantic HTML elements when you can:
 
 ```html
-<label for="birthyear">What year were you born?</label>
-<input type="number" id="birthyear" value="1984" min="1900" max="2021" />
+<label
+  >What year were you born?
+  <input type="number" value="1984" min="1900" max="2021" />
+</label>
 ```
 
 If there is no known value, like when a progress bar is in an indeterminate state, don't set an `aria-valuenow` attribute.

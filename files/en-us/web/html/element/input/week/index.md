@@ -22,8 +22,10 @@ A string representing the value of the week/year entered into the input. The for
 You can set a default value for the input by including a value inside the [`value`](/en-US/docs/Web/HTML/Element/input#value) attribute, like so:
 
 ```html
-<label for="week">What week would you like to start?</label>
-<input id="week" type="week" name="week" value="2017-W01" />
+<label
+  >What week would you like to start?
+  <input type="week" name="week" value="2017-W01" />
+</label>
 ```
 
 {{EmbedLiveSample('Value', 600, 60)}}
@@ -85,8 +87,10 @@ The simplest use of `<input type="week">` involves a basic `<input>` and {{htmle
 
 ```html
 <form>
-  <label for="week">What week would you like to start?</label>
-  <input id="week" type="week" name="week" />
+  <label
+    >What week would you like to start?
+    <input type="week" name="week" />
+  </label>
 </form>
 ```
 
@@ -110,8 +114,10 @@ You can use the [`min`](/en-US/docs/Web/HTML/Element/input#min) and [`max`](/en-
 
 ```html
 <form>
-  <label for="week">What week would you like to start?</label>
-  <input id="week" type="week" name="week" min="2017-W01" max="2017-W52" />
+  <label
+    >What week would you like to start?
+    <input type="week" name="week" min="2017-W01" max="2017-W52" />
+  </label>
   <span class="validity"></span>
 </form>
 ```
@@ -158,14 +164,10 @@ Let's look at an example; here we've set minimum and maximum weeks, and also mad
 ```html
 <form>
   <div>
-    <label for="week">What week would you like to start?</label>
-    <input
-      id="week"
-      type="week"
-      name="week"
-      min="2017-W01"
-      max="2017-W52"
-      required />
+    <label
+      >What week would you like to start?
+      <input type="week" name="week" min="2017-W01" max="2017-W52" required />
+    </label>
     <span class="validity"></span>
   </div>
   <div>
@@ -215,14 +217,10 @@ The HTML looks like so:
 ```html
 <form>
   <div class="nativeWeekPicker">
-    <label for="week">What week would you like to start?</label>
-    <input
-      id="week"
-      type="week"
-      name="week"
-      min="2017-W01"
-      max="2018-W52"
-      required />
+    <label
+      >What week would you like to start?
+      <input type="week" name="week" min="2017-W01" max="2018-W52" required />
+    </label>
     <span class="validity"></span>
   </div>
   <p class="fallbackLabel">What week would you like to start?</p>
