@@ -51,8 +51,7 @@ No role specific keyboard interactions
 
 ```html
 <div role="form" id="send-comment" aria-label="Add a comment">
-  <label
-    >Username
+  <label>Username
     <input
       name="username"
       autocomplete="nickname"
@@ -60,8 +59,7 @@ No role specific keyboard interactions
       type="text" />
   </label>
 
-  <label
-    >Email
+  <label>Email
     <input
       name="email"
       autocomplete="email"

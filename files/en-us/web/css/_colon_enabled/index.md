@@ -25,9 +25,7 @@ The following example makes the color of text and button {{htmlElement("input")}
 
 ```html
 <form action="url_of_form">
-  <label
-    >First field (enabled):
-    <input type="text" value="Lorem" /> </label
+  <label>First field (enabled): <input type="text" value="Lorem" /> </label
   ><br />
 
   <label

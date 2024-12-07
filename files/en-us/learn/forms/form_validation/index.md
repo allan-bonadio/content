@@ -328,14 +328,12 @@ First, some HTML:
     <label> <input type="radio" required name="driver" value="no" />No </label>
   </fieldset>
   <p>
-    <label
-      >How old are you?
+    <label>How old are you?
       <input type="number" min="12" max="120" step="1" name="age" />
     </label>
   </p>
   <p>
-    <label
-      >What's your favorite fruit?<span aria-label="required">*</span>
+    <label>What's your favorite fruit?<span aria-label="required">*</span>
       <input
         type="text"
         name="fruit"
@@ -353,8 +351,7 @@ First, some HTML:
     </datalist>
   </p>
   <p>
-    <label
-      >What's your email address?
+    <label>What's your email address?
       <input type="email" name="email" />
     </label>
   </p>

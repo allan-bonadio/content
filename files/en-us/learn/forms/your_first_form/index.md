@@ -94,14 +94,12 @@ In terms of HTML code we need something like the following to implement these fo
 ```html
 <form action="/my-handling-form-page" method="post">
   <p>
-    <label
-      >Name:
+    <label>Name:
       <input type="text" name="user_name" />
     </label>
   </p>
   <p>
-    <label
-      >Email:
+    <label>Email:
       <input type="email" name="user_email" />
     </label>
   </p>
@@ -275,14 +273,12 @@ Let's look at some of our form code again:
 ```html
 <form action="/my-handling-form-page" method="post">
   <p>
-    <label
-      >Name:
+    <label>Name:
       <input type="text" name="user_name" />
     </label>
   </p>
   <p>
-    <label
-      >Email:
+    <label>Email:
       <input type="email" name="user_email" />
     </label>
   </p>
@@ -311,15 +307,13 @@ Congratulations, you've built your first web form. It looks like this live:
 ```html hidden
 <form action="/my-handling-form-page" method="post">
   <div>
-    <label
-      >Name:
+    <label>Name:
       <input type="text" name="user_name" />
     </label>
   </div>
 
   <div>
-    <label
-      >Email:
+    <label>Email:
       <input type="email" name="user_email" />
     </label>
   </div>

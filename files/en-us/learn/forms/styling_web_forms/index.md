@@ -169,15 +169,13 @@ The HTML is only slightly more involved than the example we used in [the first a
   <h1>to: Mozilla</h1>
 
   <div id="from">
-    <label
-      >from:
+    <label>from:
       <input type="text" name="user_name" />
     </label>
   </div>
 
   <div id="reply">
-    <label
-      >reply:
+    <label>reply:
       <input type="email" name="user_email" />
     </label>
   </div>
