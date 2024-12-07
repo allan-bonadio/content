@@ -83,13 +83,10 @@ if (document.readyState === "loading") {
 </div>
 
 <div class="event-log">
-  <label for="eventLog">Event log:</label>
-  <textarea
-    readonly
-    class="event-log-contents"
-    rows="8"
-    cols="30"
-    id="eventLog"></textarea>
+  <label
+    >Event log:
+    <textarea readonly class="event-log-contents" rows="8" cols="30"></textarea>
+  </label>
 </div>
 ```
 

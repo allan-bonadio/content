@@ -65,8 +65,10 @@ CA
       <input id="sms-confirm" name="sms-confirm" type="checkbox" />
     </div>
     <div>
-      <label for="instructions">Any special instructions?</label>
-      <textarea id="instructions" name="instructions"></textarea>
+      <label
+        >Any special instructions?
+        <textarea name="instructions"></textarea>
+      </label>
     </div>
   </fieldset>
 

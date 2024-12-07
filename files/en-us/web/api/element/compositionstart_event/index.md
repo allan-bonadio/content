@@ -60,13 +60,10 @@ inputElement.addEventListener("compositionstart", (event) => {
 </div>
 
 <div class="event-log">
-  <label for="eventLog">Event log:</label>
-  <textarea
-    readonly
-    class="event-log-contents"
-    rows="8"
-    cols="25"
-    id="eventLog"></textarea>
+  <label
+    >Event log:
+    <textarea readonly class="event-log-contents" rows="8" cols="25"></textarea>
+  </label>
   <button class="clear-log">Clear</button>
 </div>
 ```

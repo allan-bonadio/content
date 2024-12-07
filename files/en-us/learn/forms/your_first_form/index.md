@@ -106,8 +106,9 @@ In terms of HTML code we need something like the following to implement these fo
     </label>
   </p>
   <p>
-    <label for="msg">Message:</label>
-    <textarea id="msg" name="user_message"></textarea>
+    <label>Message:
+      <textarea name="user_message"/></textarea>
+    </label>
   </p>
 </form>
 ```
@@ -286,8 +287,9 @@ Let's look at some of our form code again:
     </label>
   </p>
   <p>
-    <label for="msg">Message:</label>
-    <textarea id="msg" name="user_message"></textarea>
+    <label>Message:
+      <textarea name="user_message"/></textarea>
+    </label>
   </p>
 
   …
@@ -323,8 +325,9 @@ Congratulations, you've built your first web form. It looks like this live:
   </div>
 
   <div>
-    <label for="msg">Message:</label>
-    <textarea id="msg" name="user_message"></textarea>
+    <label>Message:
+      <textarea name="user_message"/></textarea>
+    </label>
   </div>
 
   <div class="button">

@@ -42,8 +42,10 @@ Semantic elements are more concise and require no JavaScript to support textbox 
 </label>
 
 <!-- Multi-line text area -->
-<label for="txtboxMultiline">Enter the tags for the article</label>
-<textarea id="txtboxMultiline" required></textarea>
+<label
+  >Enter the tags for the article
+  <textarea required></textarea>
+</label>
 ```
 
 Where a text field is read-only, indicated this by setting `aria-readonly="true"` on the element.

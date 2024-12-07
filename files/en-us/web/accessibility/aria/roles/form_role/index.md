@@ -71,8 +71,9 @@ No role specific keyboard interactions
       type="text" />
   </label>
 
-  <label for="comment">Comment</label>
-  <textarea id="comment" name="comment"></textarea>
+  <label>Comment
+    <textarea name="comment"/></textarea>
+  </label>
 
   <input value="Comment" type="submit" />
 </div>

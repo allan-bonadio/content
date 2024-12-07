@@ -85,8 +85,10 @@ The bio does not specify a value for `autocorrect`, which means that it is enabl
   >Name:
   <input name="username" type="text" autocorrect="off" />
 </label>
-<label for="bio">Biography: </label>
-<textarea id="bio" name="bio"></textarea>
+<label
+  >Biography:
+  <textarea name="bio"></textarea>
+</label>
 ```
 
 ```html hidden

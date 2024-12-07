@@ -113,8 +113,9 @@ When the dialog is correctly labeled and focus is moved to an element (often an 
       </label>
     </p>
     <p>
-      <label for="interests">Interests</label>
-      <textarea id="interests"></textarea>
+      <label>Interests
+        <textarea/></textarea>
+      </label>
     </p>
     <p>
       <input type="checkbox" id="autoLogin" name="autoLogin" />

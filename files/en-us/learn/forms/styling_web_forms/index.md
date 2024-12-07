@@ -183,8 +183,9 @@ The HTML is only slightly more involved than the example we used in [the first a
   </div>
 
   <div id="message">
-    <label for="msg">Your message:</label>
-    <textarea id="msg" name="user_message"></textarea>
+    <label>Your message:
+      <textarea name="user_message"/></textarea>
+    </label>
   </div>
 
   <div class="button">

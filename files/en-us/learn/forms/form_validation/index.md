@@ -359,8 +359,9 @@ First, some HTML:
     </label>
   </p>
   <p>
-    <label for="t3">Leave a short message</label>
-    <textarea id="t3" name="msg" maxlength="140" rows="5"></textarea>
+    <label>Leave a short message
+      <textarea name="msg" maxlength="140" rows="5"/></textarea>
+    </label>
   </p>
   <p>
     <button>Submit</button>
