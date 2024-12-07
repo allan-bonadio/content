@@ -64,7 +64,7 @@ For our sample project, we'll be using a toolchain specifically designed to aid 
 
 ## Checking prerequisites
 
-You should have most of the softwares already if you've been following along with the previous chapters. Here's what you should have before proceeding to the real setup steps. They only need to be done once and you don't need to repeat these again for future projects.
+You should have most of the pieces of software already if you've been following along with the previous chapters. Here's what you should have before proceeding to the real setup steps. They only need to be done once and you don't need to repeat these again for future projects.
 
 ### Creating a GitHub account
 
@@ -213,7 +213,7 @@ It can still be arduous to run the command every time we change something, and t
 > [!NOTE]
 > What is a git hook? Git (not GitHub) provides a system that lets us attach pre- and post- actions to the tasks we perform with git (such as committing your code). Although git hooks can be a bit overly complicated (in this author's opinion), once they're in place they can be very powerful. If you're interested in using hooks, [Husky](https://github.com/typicode/husky) is a greatly simplified route into using hooks.
 
-For VS Code, one useful extension is the [Prettier Code Formatter by Esben Petersen](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), which lets VSCode automatically format code upon saving. This means that any file in the project we are working on gets formatted nicely, including HTML, CSS, JavaScript, JSON, markdown, and more. All the editor needs is "Format On Save" enabled.
+For VS Code, one useful extension is the [Prettier Code Formatter by Esben Petersen](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), which lets VS Code automatically format code upon saving. This means that any file in the project we are working on gets formatted nicely, including HTML, CSS, JavaScript, JSON, markdown, and more. All the editor needs is "Format On Save" enabled.
 
 ### Code linting tools
 

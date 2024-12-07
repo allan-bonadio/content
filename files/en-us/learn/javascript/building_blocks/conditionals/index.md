@@ -371,7 +371,7 @@ There is one final bit of syntax we want to introduce you to before we get you t
 condition ? run this code : run this code instead
 ```
 
-So let's look at a simple example:
+So let's look at an example:
 
 ```js
 const greeting = isBirthday
@@ -607,7 +607,7 @@ h2 {
   </head>
   <body>
     ${outputBody}
-    <script>${code}</script>
+    <script>${code}<${"/"}script>
   </body>
 </html>`;
 }
@@ -797,7 +797,7 @@ function outputDocument(code) {
   </head>
   <body>
     ${outputBody}
-    <script>${code}</script>
+    <script>${code}<${"/"}script>
   </body>
 </html>`;
 }
