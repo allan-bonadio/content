@@ -56,8 +56,8 @@ The following snippet shows a simplified version of two form fields with a valid
 ```html
 <ul>
   <li>
-    <label
-      >Full Name
+    <label>
+      Full Name
       <input
         type="text"
         name="name"
@@ -67,8 +67,8 @@ The following snippet shows a simplified version of two form fields with a valid
     </label>
   </li>
   <li>
-    <label
-      >Email Address
+    <label>
+      Email Address
       <input
         type="email"
         name="email"

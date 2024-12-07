@@ -73,8 +73,8 @@ This example logs the {{domxref("KeyboardEvent.code")}} value whenever you press
 
 ```html
 <div>
-  <label
-    >Focus the input and type something:
+  <label>
+    Focus the input and type something:
     <input type="text" name="text" />
   </label>
 </div>

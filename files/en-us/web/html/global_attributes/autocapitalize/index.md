@@ -44,44 +44,44 @@ Possible values are:
 
 <form>
   <div>
-    <label
-      >Default: no autocapitalize set
+    <label>
+      Default: no autocapitalize set
       <input type="text" name="default" />
     </label>
   </div>
   <div>
-    <label
-      >autocapitalize="off"
+    <label>
+      autocapitalize="off"
       <input type="text" name="off" autocapitalize="off" />
     </label>
   </div>
   <div>
-    <label
-      >autocapitalize="none"
+    <label>
+      autocapitalize="none"
       <input type="text" name="none" autocapitalize="none" />
     </label>
   </div>
   <div>
-    <label
-      >autocapitalize="on"
+    <label>
+      autocapitalize="on"
       <input type="text" name="on" autocapitalize="on" />
     </label>
   </div>
   <div>
-    <label
-      >autocapitalize="sentences"
+    <label>
+      autocapitalize="sentences"
       <input type="text" name="sentences" autocapitalize="sentences" />
     </label>
   </div>
   <div>
-    <label
-      >autocapitalize="words"
+    <label>
+      autocapitalize="words"
       <input type="text" name="words" autocapitalize="words" />
     </label>
   </div>
   <div>
-    <label
-      >autocapitalize="characters"
+    <label>
+      autocapitalize="characters"
       <input type="text" name="characters" autocapitalize="characters" />
     </label>
   </div>

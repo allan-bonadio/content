@@ -42,15 +42,15 @@ If the form also contains [optional](/en-US/docs/Web/CSS/:optional) inputs, requ
 ```html
 <form>
   <div class="field">
-    <label
-      >Enter a URL:
+    <label>
+      Enter a URL:
       <input type="url" />
     </label>
   </div>
 
   <div class="field">
-    <label
-      >Enter an email address:
+    <label>
+      Enter an email address:
       <input type="email" required />
     </label>
   </div>

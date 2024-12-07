@@ -79,8 +79,8 @@ What if the synchronous function takes a long time?
 The program below uses a very inefficient algorithm to generate multiple large prime numbers when a user clicks the "Generate primes" button. The higher the number of primes a user specifies, the longer the operation will take.
 
 ```html
-<label
-  >Number of primes:
+<label>
+  Number of primes:
   <input type="text" name="quota" value="1000000" />
 </label>
 
@@ -139,8 +139,8 @@ The next example is just like the last one, except we added a text box for you t
 You'll find that while our `generatePrimes()` function is running, our program is completely unresponsive: you can't type anything, click anything, or do anything else.
 
 ```html hidden
-<label
-  >Number of primes:
+<label>
+  Number of primes:
   <input type="text" name="quota" value="1000000" />
 </label>
 

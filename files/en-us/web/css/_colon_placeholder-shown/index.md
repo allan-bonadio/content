@@ -82,20 +82,20 @@ The following example highlights the Student ID field with a custom style.
 ```html
 <form id="test">
   <p>
-    <label
-      >Enter Student Name:
+    <label>
+      Enter Student Name:
       <input placeholder="Student Name" />
     </label>
   </p>
   <p>
-    <label
-      >Enter Student Branch:
+    <label>
+      Enter Student Branch:
       <input placeholder="Student Branch" />
     </label>
   </p>
   <p>
-    <label
-      >Enter Student ID:
+    <label>
+      Enter Student ID:
       <input
         type="number"
         pattern="[0-9]{8}"

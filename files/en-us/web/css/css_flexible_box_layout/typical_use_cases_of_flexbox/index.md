@@ -379,8 +379,8 @@ Flexbox makes this type of layout easy to achieve. The `<label>`, `<input>` and 
 ```html live-sample___label-input-button
 <form class="example">
   <div class="wrapper">
-    <label
-      >Label
+    <label>
+      Label
       <input type="text" />
     </label>
     <input type="submit" value="Send" />

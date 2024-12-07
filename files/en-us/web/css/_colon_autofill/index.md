@@ -47,8 +47,8 @@ input:is(:-webkit-autofill, :autofill) {
 
 ```html
 <form method="post" action="">
-  <label
-    >Email
+  <label>
+    Email
     <input type="email" name="email" autocomplete="email" />
   </label>
 </form>

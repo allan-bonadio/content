@@ -27,8 +27,8 @@ In this example, the log displays the current value of the {{HTMLElement("input/
 We include an {{htmlelement("input")}} of type `number` and an associated {{htmlelement("label")}}, with a {{htmlelement("pre")}} container for our output.
 
 ```html
-<label
-  >Pick a number between 1 and 10:
+<label>
+  Pick a number between 1 and 10:
 
   <input name="number" min="1" max="10" type="number" />
 </label>
@@ -72,8 +72,8 @@ This example demonstrates the `valueAsNumber` property of an `<input>` with type
 We include an `<input>` of type `datetime-local`:
 
 ```html
-<label
-  >Pick a date and time:
+<label>
+  Pick a date and time:
 
   <input name="date" type="datetime-local" />
 </label>

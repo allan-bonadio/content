@@ -216,8 +216,8 @@ To use the `addItem()` method, edit the HTML in the `AppComponent` template.
 In `app.component.html`, replace the `<h2>` with the following:
 
 ```html
-<label
-  >What would you like to do today?
+<label>
+  What would you like to do today?
 
   <input
     #newItem

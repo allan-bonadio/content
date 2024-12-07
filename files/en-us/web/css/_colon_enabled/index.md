@@ -28,8 +28,8 @@ The following example makes the color of text and button {{htmlElement("input")}
   <label>First field (enabled): <input type="text" value="Lorem" /> </label
   ><br />
 
-  <label
-    >Second field (disabled):
+  <label>
+    Second field (disabled):
     <input type="text" value="Ipsum" disabled /> </label
   ><br />
 

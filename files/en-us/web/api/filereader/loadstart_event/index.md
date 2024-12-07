@@ -48,8 +48,8 @@ _Also inherits properties from its parent {{domxref("Event")}}_.
 ```html
 <div class="example">
   <div class="file-select">
-    <label
-      >Choose a profile picture:
+    <label>
+      Choose a profile picture:
       <input type="file" name="avatar" accept="image/png, image/jpeg" />
     </label>
   </div>
@@ -57,8 +57,8 @@ _Also inherits properties from its parent {{domxref("Event")}}_.
   <img src="" class="preview" height="200" alt="Image preview" />
 
   <div class="event-log">
-    <label
-      >Event log:
+    <label>
+      Event log:
       <textarea readonly class="event-log-contents"></textarea>
     </label>
   </div>

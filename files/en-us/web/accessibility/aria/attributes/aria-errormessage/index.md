@@ -49,8 +49,8 @@ When an object is invalid, we use JavaScript to add `aria-invalid="true"`. The a
 
 ```html
 <p>
-  <label
-    >Email address:
+  <label>
+    Email address:
     <input
       type="email"
       name="email"

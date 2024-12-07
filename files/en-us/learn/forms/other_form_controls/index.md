@@ -178,8 +178,8 @@ Once a data list is affiliated with a form widget, its options are used to auto-
 Let's look at an example.
 
 ```html
-<label
-  >What's your favorite fruit?
+<label>
+  What's your favorite fruit?
   <input type="text" name="myFruit" list="mySuggestion" />
 </label>
 <datalist id="mySuggestion">

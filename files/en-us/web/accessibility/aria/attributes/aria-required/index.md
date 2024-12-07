@@ -49,8 +49,8 @@ In this example, JavaScript must be used to prevent the containing form from bei
 This could be written semantically, without the need for JavaScript:
 
 ```html
-<label
-  >Email Address (required)
+<label>
+  Email Address (required)
   <input type="email" required />
 </label>
 ```

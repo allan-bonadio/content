@@ -283,8 +283,8 @@ input:valid + span::after {
 ```html
 <form>
   <div>
-    <label
-      >Enter the problem website address:
+    <label>
+      Enter the problem website address:
       <input
         name="myURL"
         type="url"
@@ -295,8 +295,8 @@ input:valid + span::after {
     <span class="validity"></span>
   </div>
   <div>
-    <label
-      >What is the problem?
+    <label>
+      What is the problem?
       <input name="myComment" type="text" required />
     </label>
     <span class="validity"></span>

@@ -124,13 +124,13 @@ This is great, but wouldn't it be nice if we had an amplitude envelope to go wit
 Let's say our envelope has attack and release. We can allow the user to control these using [range inputs](/en-US/docs/Web/HTML/Element/input/range) on the interface:
 
 ```html
-<label
-  >Attack
+<label>
+  Attack
   <input name="attack" type="range" min="0" max="1" value="0.2" step="0.1" />
 </label>
 
-<label
-  >Release
+<label>
+  Release
   <input name="release" type="range" min="0" max="1" value="0.5" step="0.1" />
 </label>
 ```
@@ -242,12 +242,12 @@ osc.stop(time + pulseTime);
 For the UI controls, let's expose both frequencies of our oscillators, allowing them to be controlled via range inputs. One will change the tone, and the other will change how the pulse modulates the first wave:
 
 ```html
-<label
-  >Hz
+<label>
+  Hz
   <input name="hz" type="range" min="660" max="1320" value="880" step="1" />
 </label>
-<label
-  >LFO
+<label>
+  LFO
   <input name="lfo" type="range" min="20" max="40" value="30" step="1" />
 </label>
 ```
@@ -382,13 +382,13 @@ noise.connect(bandpass).connect(audioCtx.destination);
 On the UI, we'll expose the noise duration and the frequency we want to band, allowing the user to adjust them via range inputs and event handlers just like in previous sections:
 
 ```html
-<label
-  >Duration
+<label>
+  Duration
   <input name="duration" type="range" min="0" max="2" value="1" step="0.1" />
 </label>
 
-<label
-  >Band
+<label>
+  Band
   <input name="band" type="range" min="400" max="1200" value="1000" step="5" />
 </label>
 ```
@@ -519,8 +519,8 @@ function playSample(audioContext, audioBuffer, time) {
 The {{domxref("AudioBufferSourceNode")}} comes with a [`playbackRate`](/en-US/docs/Web/API/AudioBufferSourceNode/playbackRate) property. Let's expose that to our UI so that we can speed up and slow down our sample. We'll do that in the same sort of way as before:
 
 ```html
-<label
-  >Rate
+<label>
+  Rate
   <input name="rate" type="range" min="0.1" max="2" value="1" step="0.1" />
 </label>
 ```

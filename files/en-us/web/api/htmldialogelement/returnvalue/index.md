@@ -32,8 +32,8 @@ The reset button has an event handler that closes the dialog; it has no impact o
       name="x-button"
       formnovalidate />
     <p>
-      <label
-        >Favorite animal:
+      <label>
+        Favorite animal:
         <select name="favAnimal" required>
           <option></option>
           <option>Brine shrimp</option>

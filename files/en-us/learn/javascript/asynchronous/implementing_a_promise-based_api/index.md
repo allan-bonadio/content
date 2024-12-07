@@ -97,15 +97,15 @@ This part should be quite familiar from the last article. We can call `alarm()`,
 
 ```html hidden
 <div>
-  <label
-    >Name:
+  <label>
+    Name:
     <input type="text" name="name" size="4" value="Matilda" />
   </label>
 </div>
 
 <div>
-  <label
-    >Delay:
+  <label>
+    Delay:
     <input type="text" name="delay" size="4" value="1000" />
   </label>
 </div>
@@ -159,15 +159,15 @@ Since `alarm()` returns a `Promise`, we can do everything with it that we could 
 
 ```html hidden
 <div>
-  <label
-    >Name:
+  <label>
+    Name:
     <input type="text" name="name" size="4" value="Matilda" />
   </label>
 </div>
 
 <div>
-  <label
-    >Delay:
+  <label>
+    Delay:
     <input type="text" name="delay" size="4" value="1000" />
   </label>
 </div>

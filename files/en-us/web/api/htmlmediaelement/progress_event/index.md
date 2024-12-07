@@ -38,8 +38,8 @@ A generic {{domxref("Event")}}.
   <video controls width="250"></video>
 
   <div class="event-log">
-    <label
-      >Event log:
+    <label>
+      Event log:
       <textarea readonly class="event-log-contents"></textarea>
     </label>
   </div>

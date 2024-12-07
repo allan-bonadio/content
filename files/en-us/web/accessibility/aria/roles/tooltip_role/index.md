@@ -58,8 +58,8 @@ The tooltip should appear on focus or when the element is hovered on, without ad
 ## Examples
 
 ```html
-<label
-  >Password:
+<label>
+  Password:
   <input aria-describedby="passwordrules" type="password" />
 </label>
 <div role="tooltip" id="passwordrules">

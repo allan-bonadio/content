@@ -20,8 +20,8 @@ Given the following HTML:
 
 ```html
 <p>
-  <label
-    >Which planet were you born on?
+  <label>
+    Which planet were you born on?
     <input type="text" name="origin" />
   </label>
 </p>

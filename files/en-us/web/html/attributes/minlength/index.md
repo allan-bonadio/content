@@ -25,8 +25,8 @@ The input will fail constraint validation if the length of the text value of the
 By adding `minlength="5"`, the value must either be empty or five characters or longer to be valid.
 
 ```html
-<label
-  >Enter a fruit name that is at least 5 letters long
+<label>
+  Enter a fruit name that is at least 5 letters long
   <input type="text" minlength="5" />
 </label>
 ```

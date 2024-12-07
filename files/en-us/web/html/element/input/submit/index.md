@@ -105,8 +105,8 @@ We'll begin by creating a form with a simple submit button:
 ```html
 <form>
   <div>
-    <label
-      >Let's submit some text
+    <label>
+      Let's submit some text
       <input type="text" name="text" />
     </label>
   </div>
@@ -135,8 +135,8 @@ Here's the previous example with the <kbd>s</kbd> access key added:
 ```html
 <form>
   <div>
-    <label
-      >Let's submit some text
+    <label>
+      Let's submit some text
       <input type="text" name="text" />
     </label>
   </div>

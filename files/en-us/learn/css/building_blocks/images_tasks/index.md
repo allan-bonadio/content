@@ -79,8 +79,8 @@ Try to update the code below to recreate the finished example:
 ```html live-sample___form
 <form action="" class="my-form" method="post">
   <div>
-    <label
-      >Keywords
+    <label>
+      Keywords
       <input name="keywords" type="search" />
     </label>
     <input name="btnSubmit" type="submit" value="Search" />

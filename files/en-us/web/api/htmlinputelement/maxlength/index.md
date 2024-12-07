@@ -23,8 +23,8 @@ Given the following HTML:
 
 ```html
 <p>
-  <label
-    >Your password
+  <label>
+    Your password
     <input type="password" minlength="8" maxlength="20" />
   </label>
 </p>

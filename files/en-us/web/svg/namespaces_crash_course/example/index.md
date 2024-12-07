@@ -68,21 +68,29 @@ cy='150' r='7' fill='#0000ff' fill-opacity='0.5'/>
 
     <form action="" onsubmit="return false;">
       <p>
-      <label>Number of motes:</label>
+      <label>
+        Number of motes:
         <input id='num_motes' value='5'/>
-        <br/>
+      </label>
+      <br/>
 
-      <label>Max. Velocity:</label>
+      <label>
+        Max. Velocity:
         <input id='max_velocity' value='15'/>
-        <br/>
+      </label>
+      <br/>
 
-      <label>Attraction to cursor:</label>
+      <label>
+        Attraction to cursor:
         <input id='attract_cursor' value='6'/>
-        <br/>
+      </label>
+      <br/>
 
-      <label>Repulsion from peers:</label>
+      <label>
+        Repulsion from peers:
         <input id='repel_peer' value='5'/>
-        <br/>
+      </label>
+      <br/>
       </p>
     </form>
 

@@ -82,20 +82,22 @@ The HTML in this example contains three form fields, each with an associated {{h
 
 ```html
 <div>
-  <label
-    >Enter name:
+  <label>
+    Enter name:
     <input type="text" maxlength="50" />
   </label>
 </div>
 <div>
-  <label
-    >Enter email:
+  <label>
+    Enter email:
     <input type="email" maxlength="50" placeholder="e.g. a@b.com" />
   </label>
 </div>
 <div>
-  <label for="comment">Enter comment:</label>
-  <textarea id="comment">This is a comment.</textarea>
+  <label>
+    Enter comment:
+    <textarea>This is a comment.</textarea>
+  </label>
 </div>
 ```
 

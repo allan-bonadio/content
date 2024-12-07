@@ -65,8 +65,8 @@ The edit form's HTML might look a bit like this:
 ```html
 <form>
   <div>
-    <label
-      >Post title:
+    <label>
+      Post title:
       <input type="text" name="title" value="My excellent blog post" />
     </label>
   </div>

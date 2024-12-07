@@ -31,8 +31,8 @@ To create an options page, write an HTML file defining the page. This page can i
 
   <body>
     <form>
-      <label
-        >Favorite color
+      <label>
+        Favorite color
         <input type="text" name="color" />
       </label>
       <button type="submit">Save</button>

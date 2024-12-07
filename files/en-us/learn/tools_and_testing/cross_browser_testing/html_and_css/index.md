@@ -131,14 +131,14 @@ The following example shows date and time inputs:
 ```html
 <form>
   <div>
-    <label
-      >Enter a date:
+    <label>
+      Enter a date:
       <input type="date" />
     </label>
   </div>
   <div>
-    <label
-      >Enter a time:
+    <label>
+      Enter a time:
       <input type="time" />
     </label>
   </div>

@@ -26,16 +26,16 @@ A non-negative number.
 
 ```html
 <!-- use selectionStart on non text input element -->
-<label
-  >selectionStart property on type=color
+<label>
+  selectionStart property on type=color
   <input type="color" />
 </label>
 
 <!-- use selectionStart on text input element -->
 <fieldset>
   <legend>selectionStart property on type=text</legend>
-  <label
-    >Select 'mdn' word from the text :
+  <label>
+    Select 'mdn' word from the text :
     <input type="text" value="The mdn is a documentation repository." />
   </label>
   <button id="statement-btn">Select mdn text</button>

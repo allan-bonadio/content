@@ -36,8 +36,8 @@ In this example, we use structures like this, which include extra `<span>`s to g
 
 ```html
 <div>
-  <label
-    >First name *:
+  <label>
+    First name *:
     <input name="fname" type="text" required />
   </label>
   <span></span>

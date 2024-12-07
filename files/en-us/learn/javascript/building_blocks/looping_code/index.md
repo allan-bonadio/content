@@ -387,8 +387,8 @@ Say we wanted to search through an array of contacts and telephone numbers and r
 First, some simple HTML — a text {{htmlelement("input")}} allowing us to enter a name to search for, a {{htmlelement("button")}} element to submit a search, and a {{htmlelement("p")}} element to display the results in:
 
 ```html
-<label
-  >Search by contact name:
+<label>
+  Search by contact name:
   <input type="text" />
 </label>
 <button>Search</button>
@@ -453,8 +453,8 @@ Let's look at another example that takes a number as an input, and returns only 
 The HTML is basically the same as the last example — a simple numeric input, and a paragraph for output.
 
 ```html
-<label
-  >Enter number:
+<label>
+  Enter number:
   <input type="number" />
 </label>
 <button>Generate integer squares</button>

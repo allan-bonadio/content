@@ -23,7 +23,8 @@ Given the following HTML:
 
 ```html
 <p>
-  <label>Comment
+  <label>
+    Comment
     <textarea minlength="10" maxlength="200" /></textarea>
   </label>
 </p>

@@ -33,8 +33,8 @@ A generic {{domxref("Event")}}.
 #### HTML
 
 ```html
-<label
-  >Select a file. Or don't.
+<label>
+  Select a file. Or don't.
   <input type="file" name="file" />
 </label>
 

@@ -51,21 +51,23 @@ This listbox supports multiple selection so we set the element with role `listbo
 The first rule of ARIA use is "if you can use a native feature with the semantics and behavior you require already built in, instead of repurposing an element and **adding** an ARIA role, state or property to make it accessible, then do so." Instead of creating an unordered list requiring [`tabindex`](/en-US/docs/Web/HTML/Global_attributes/tabindex), ARIA and JavaScript to turn text into selectable options, we could have used a native multiselect: the {{htmlelement('select')}} element has a Boolean [`multiple`](/en-US/docs/Web/HTML/Element/select#multiple) attribute. If included, the user can select multiple options. If not, only a single option can be selected.
 
 ```html
-<label for="flagcolors"> Choose the colors for your flag. </label>
-<select multiple id="flagcolors">
-  <option value="red">Red</option>
-  <option value="orange">Orange</option>
-  <option value="yellow">Yellow</option>
-  <option value="green">Green</option>
-  <option value="blue">Blue</option>
-  <option value="purple">Purple</option>
-  <option value="magenta">Hot pink</option>
-  <option value="lightpink" selected>Light pink</option>
-  <option value="white" selected>White</option>
-  <option value="lightblue" selected>Light blue</option>
-  <option value="black">Black</option>
-  <option value="brown">Brown</option>
-</select>
+<label>
+  Choose the colors for your flag.
+  <select multiple id="flagcolors">
+    <option value="red">Red</option>
+    <option value="orange">Orange</option>
+    <option value="yellow">Yellow</option>
+    <option value="green">Green</option>
+    <option value="blue">Blue</option>
+    <option value="purple">Purple</option>
+    <option value="magenta">Hot pink</option>
+    <option value="lightpink" selected>Light pink</option>
+    <option value="white" selected>White</option>
+    <option value="lightblue" selected>Light blue</option>
+    <option value="black">Black</option>
+    <option value="brown">Brown</option>
+  </select>
+</label>
 ```
 
 This HTML `<select>` version is accessible and interactive, and needs no ARIA or JavaScript to function.

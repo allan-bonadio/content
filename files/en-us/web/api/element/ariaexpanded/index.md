@@ -27,8 +27,8 @@ In this example the `aria-expanded` attribute on the element with an ID of `anim
 
 ```html
 <div class="animals-combobox">
-  <label
-    >Animal
+  <label>
+    Animal
     <input
       type="text"
       role="combobox"

@@ -224,8 +224,8 @@ This allows you to compare and contrast the effects of different length units.
 ```html
 <div class="outer">
   <div class="input-container">
-    <label
-      >Enter width:
+    <label>
+      Enter width:
       <input type="text" />
     </label>
   </div>

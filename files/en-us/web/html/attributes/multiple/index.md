@@ -61,8 +61,8 @@ Setting `size="1"` on a multiple select can make it appear as a single select in
 ### email input
 
 ```html
-<label
-  >Who do you want to email?
+<label>
+  Who do you want to email?
   <input
     type="email"
     multiple
@@ -112,8 +112,8 @@ When `multiple` is set on the {{HTMLElement("input/file", "file")}} input type, 
     </label>
   </p>
   <p>
-    <label
-      >Pick a text file to upload:
+    <label>
+      Pick a text file to upload:
       <input type="file" name="text" accept=".txt" />
     </label>
   </p>

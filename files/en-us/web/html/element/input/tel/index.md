@@ -92,8 +92,8 @@ One of the main advantages of `<input type="tel">` is that it causes mobile brow
 In its most basic form, a tel input can be implemented like this:
 
 ```html
-<label
-  >Phone number:
+<label>
+  Phone number:
   <input name="telNo" type="tel" />
 </label>
 ```
@@ -166,8 +166,8 @@ As always, you can provide a default value for an `tel` input box by setting its
 Taking it a step further, you can provide a list of default phone number values from which the user can select. To do this, use the [`list`](/en-US/docs/Web/HTML/Element/input#list) attribute. This doesn't limit the user to those options, but does allow them to select commonly-used telephone numbers more quickly. This also offers hints to [`autocomplete`](/en-US/docs/Web/HTML/Element/input#autocomplete). The `list` attribute specifies the ID of a {{HTMLElement("datalist")}} element, which in turn contains one {{HTMLElement("option")}} element per suggested value; each `option`'s `value` is the corresponding suggested value for the telephone number entry box.
 
 ```html
-<label
-  >Phone number:
+<label>
+  Phone number:
   <input name="telNo" type="tel" list="defaultTels" />
 </label>
 
@@ -201,8 +201,8 @@ You can make it so that an empty input is invalid and won't be submitted to the 
 ```html
 <form>
   <div>
-    <label
-      >Enter a telephone number (required):
+    <label>
+      Enter a telephone number (required):
       <input name="telNo" type="tel" required />
     </label>
     <span class="validity"></span>

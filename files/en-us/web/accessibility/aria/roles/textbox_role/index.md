@@ -36,14 +36,14 @@ The default is a single line input, in which <kbd>Return</kbd> or <kbd>Enter</kb
 Semantic elements are more concise and require no JavaScript to support textbox features.
 
 ```html
-<label
-  >Enter your five-digit zip code
+<label>
+  Enter your five-digit zip code
   <input type="text" placeholder="5-digit zip code" />
 </label>
 
 <!-- Multi-line text area -->
-<label
-  >Enter the tags for the article
+<label>
+  Enter the tags for the article
   <textarea required></textarea>
 </label>
 ```

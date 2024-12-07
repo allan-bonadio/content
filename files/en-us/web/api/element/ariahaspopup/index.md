@@ -38,8 +38,8 @@ In this example, the `aria-haspopup` attribute on the element with an ID of `ani
 
 ```html
 <div class="animals-combobox">
-  <label
-    >Animal
+  <label>
+    Animal
     <input
       type="text"
       role="combobox"

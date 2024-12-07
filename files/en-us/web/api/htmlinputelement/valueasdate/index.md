@@ -29,8 +29,8 @@ This example demonstrates accessing the `valueAsDate` property on an `<input>` o
 We include an `<input>` of type `week`:
 
 ```html
-<label
-  >Pick a date and time:
+<label>
+  Pick a date and time:
 
   <input name="date" type="week" />
 </label>
@@ -74,8 +74,8 @@ This example demonstrates applying {{jsxref("Date")}} methods directly to the `v
 We include an `<input>` of type `date`:
 
 ```html
-<label
-  >Pick a date:
+<label>
+  Pick a date:
 
   <input name="date2" type="date" />
 </label>

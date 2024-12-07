@@ -78,14 +78,14 @@ Suppose our HTML declares a `<form>` element:
 ```html
 <form id="userinfo">
   <p>
-    <label
-      >Enter your name:
+    <label>
+      Enter your name:
       <input type="text" name="username" value="Dominic" />
     </label>
   </p>
   <p>
-    <label
-      >Select an avatar
+    <label>
+      Select an avatar
       <input type="file" name="avatar" required />
     </label>
   </p>

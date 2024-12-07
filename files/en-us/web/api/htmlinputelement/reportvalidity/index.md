@@ -35,8 +35,8 @@ We include a form containing a required number field and two buttons: one to che
 ```html
 <form action="#" method="post">
   <p>
-    <label
-      >Your (21 to 65)
+    <label>
+      Your (21 to 65)
       <input type="number" name="age" required min="21" max="65" />
     </label>
   </p>
@@ -87,8 +87,8 @@ We add a "Fix me" button to the HTML from the previous example.
 ```html hidden
 <form action="#" method="post">
   <p>
-    <label
-      >Your (21 to 65)
+    <label>
+      Your (21 to 65)
       <input type="number" name="age" required min="21" max="65" />
     </label>
   </p>

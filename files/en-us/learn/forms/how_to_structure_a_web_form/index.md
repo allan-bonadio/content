@@ -148,8 +148,8 @@ Let's consider this example:
 
 <!-- But this is probably best: -->
 <div>
-  <label
-    >Name: <span aria-label="required">*</span>
+  <label>
+    Name: <span aria-label="required">*</span>
     <input type="text" name="username" required />
   </label>
 </div>

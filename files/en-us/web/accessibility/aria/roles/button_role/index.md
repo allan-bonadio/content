@@ -115,8 +115,8 @@ Try the example by adding a name to the text box. The button will cause the name
 ```html
 <h1>ARIA Button Example</h1>
 <ul id="nameList"></ul>
-<label
-  >Enter your Name:
+<label>
+  Enter your Name:
   <input type="text" />
 </label>
 <span

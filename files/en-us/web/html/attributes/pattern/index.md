@@ -99,8 +99,8 @@ The example below restricts the value to 4-8 characters and requires that it con
 ```html
 <form>
   <div>
-    <label
-      >Choose a username:
+    <label>
+      Choose a username:
       <input
         type="text"
         name="name"

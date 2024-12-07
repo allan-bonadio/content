@@ -194,14 +194,14 @@ The following example shows the same button as before, but included in the conte
 <form>
   <p>Login to your account</p>
   <div>
-    <label
-      >User ID
+    <label>
+      User ID
       <input type="text" name="userId" />
     </label>
   </div>
   <div>
-    <label
-      >Password
+    <label>
+      Password
       <input type="password" name="pwd" />
     </label>
   </div>
@@ -245,14 +245,14 @@ In this example, we adapt the previous example to set aside more space for the i
 <form>
   <p>Login to your account</p>
   <div>
-    <label
-      >User ID
+    <label>
+      User ID
       <input type="text" name="userId" />
     </label>
   </div>
   <div>
-    <label
-      >Password
+    <label>
+      Password
       <input type="password" name="pwd" />
     </label>
   </div>

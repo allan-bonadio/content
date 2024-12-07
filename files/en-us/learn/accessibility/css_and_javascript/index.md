@@ -169,8 +169,8 @@ Elements to allow users to input data into websites:
 
 ```html
 <div>
-  <label
-    >Enter your name
+  <label>
+    Enter your name
     <input type="text" name="name" />
   </label>
 </div>
@@ -262,8 +262,8 @@ This kind of form validation is unobtrusive — you can still use the form absol
 We've made this form validation pretty accessible too. We've used {{htmlelement("label")}} elements to make sure the form labels are unambiguously linked to their inputs, so screen readers can read them out alongside:
 
 ```html
-<label
-  >Enter your name:
+<label>
+  Enter your name:
   <input type="text" name="name" />
 </label>
 ```

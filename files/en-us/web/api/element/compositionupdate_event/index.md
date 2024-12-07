@@ -64,8 +64,8 @@ inputElement.addEventListener("compositionupdate", (event) => {
 </div>
 
 <div class="event-log">
-  <label
-    >Event log:
+  <label>
+    Event log:
     <textarea readonly class="event-log-contents" rows="8" cols="25"></textarea>
   </label>
   <button class="clear-log">Clear</button>

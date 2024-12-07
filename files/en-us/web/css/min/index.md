@@ -69,8 +69,8 @@ Here, the form itself, along with the margin, border, and padding, will be 100% 
 
 ```html
 <form>
-  <label
-    >Type something:
+  <label>
+    Type something:
     <input type="text" name="misc" />
   </label>
 </form>

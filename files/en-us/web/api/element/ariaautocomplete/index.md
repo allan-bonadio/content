@@ -29,8 +29,8 @@ In this example, the `aria-autocomplete` attribute on the element with an ID of 
 
 ```html
 <div class="animals-combobox">
-  <label
-    >Animal
+  <label>
+    Animal
     <input
       type="text"
       role="combobox"

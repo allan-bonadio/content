@@ -95,8 +95,8 @@ Mobile browsers further help with the user experience by showing a special keybo
 In its most basic form, a number input can be implemented like this:
 
 ```html
-<label
-  >Number of tickets you would like to buy:
+<label>
+  Number of tickets you would like to buy:
   <input type="number" name="ticketNum" value="0" />
 </label>
 ```
@@ -219,8 +219,8 @@ The following example exhibits all of the above features, as well as using some 
 ```html
 <form>
   <div>
-    <label
-      >Number of balloons to order (multiples of 10):
+    <label>
+      Number of balloons to order (multiples of 10):
       <input
         type="number"
         name="balloons"
@@ -295,8 +295,8 @@ The HTML looks like this:
 ```html
 <form>
   <div class="metersInputGroup">
-    <label
-      >Enter your height — meters:
+    <label>
+      Enter your height — meters:
       <input
         type="number"
         name="meters"
@@ -309,13 +309,13 @@ The HTML looks like this:
   </div>
   <div class="feetInputGroup" style="display: none;">
     <span>Enter your height — </span>
-    <label
-      >feet:
+    <label>
+      feet:
       <input type="number" name="feet" min="0" step="1" />
     </label>
     <span class="validity"></span>
-    <label
-      >inches:
+    <label>
+      inches:
       <input type="number" name="inches" min="0" max="11" step="1" />
     </label>
     <span class="validity"></span>

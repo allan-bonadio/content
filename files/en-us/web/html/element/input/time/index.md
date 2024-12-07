@@ -47,8 +47,8 @@ First, a look at the HTML. This is simple enough, with the label and input as we
 
 ```html
 <form>
-  <label
-    >Start time:
+  <label>
+    Start time:
     <input type="time" />
   </label>
   <p>

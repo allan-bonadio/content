@@ -57,32 +57,32 @@ For example, let's take the following controls:
 ```html
 <form>
   <p>
-    <label
-      >search:
+    <label>
+      search:
       <input name="search" type="search" />
     </label>
   </p>
   <p>
-    <label
-      >text:
+    <label>
+      text:
       <input name="text" type="text" />
     </label>
   </p>
   <p>
-    <label
-      >date:
+    <label>
+      date:
       <input name="date" type="datetime-local" />
     </label>
   </p>
   <p>
-    <label
-      >radio:
+    <label>
+      radio:
       <input name="radio" type="radio" />
     </label>
   </p>
   <p>
-    <label
-      >checkbox:
+    <label>
+      checkbox:
       <input name="checkbox" type="checkbox" />
     </label>
   </p>

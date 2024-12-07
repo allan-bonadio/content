@@ -97,8 +97,8 @@ You can also send files using `FormData`. Include an {{ HTMLElement("input") }} 
 ```html
 <form enctype="multipart/form-data" method="post" name="fileinfo" id="fileinfo">
   <p>
-    <label
-      >Your email address:
+    <label>
+      Your email address:
       <input
         type="email"
         autocomplete="on"
@@ -110,14 +110,14 @@ You can also send files using `FormData`. Include an {{ HTMLElement("input") }} 
     </label>
   </p>
   <p>
-    <label
-      >Custom file label:
+    <label>
+      Custom file label:
       <input type="text" name="file-label" size="12" maxlength="32" />
     </label>
   </p>
   <p>
-    <label
-      >File to stash:
+    <label>
+      File to stash:
       <input type="file" name="file" required />
     </label>
   </p>

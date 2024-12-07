@@ -614,20 +614,20 @@ Let's look at an example. First, some simple markup that creates an HTML form. E
 <form>
   <p>First of all, tell us your name and age.</p>
   <div>
-    <label
-      >First name:
+    <label>
+      First name:
       <input type="text" />
     </label>
   </div>
   <div>
-    <label
-      >Last name:
+    <label>
+      Last name:
       <input type="text" />
     </label>
   </div>
   <div>
-    <label
-      >Age:
+    <label>
+      Age:
       <input type="text" />
     </label>
   </div>

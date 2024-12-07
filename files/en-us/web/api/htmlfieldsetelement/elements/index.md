@@ -24,14 +24,14 @@ An {{domxref("HTMLCollection")}}.
   <fieldset id="my-fieldset">
     <legend>My fieldset</legend>
     <p>
-      <label
-        >Username:
+      <label>
+        Username:
         <input type="text" name="username" />
       </label>
     </p>
     <p>
-      <label
-        >Password:
+      <label>
+        Password:
         <input type="password" name="password" />
       </label>
     </p>

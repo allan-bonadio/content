@@ -381,8 +381,8 @@ Another common constraint is to limit the size of a file to be uploaded. Checkin
 Here is the HTML part:
 
 ```html
-<label
-  >Select a file smaller than 75 kB:
+<label>
+  Select a file smaller than 75 kB:
   <input type="file" />
 </label>
 ```

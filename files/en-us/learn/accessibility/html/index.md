@@ -177,8 +177,8 @@ Try our example [table-layout.html](https://mdn.github.io/learning-area/accessib
     </td>
     <td width="300">
       <form width="300">
-        <label
-          >Search
+        <label>
+          Search
           <input
             type="search"
             name="q"
@@ -302,14 +302,14 @@ You essentially get this behavior for free, just by using the appropriate elemen
 
 <form>
   <div>
-    <label
-      >Fill in your name:
+    <label>
+      Fill in your name:
       <input type="text" name="name" />
     </label>
   </div>
   <div>
-    <label
-      >Enter your age:
+    <label>
+      Enter your age:
       <input type="text" name="age" />
     </label>
   </div>
@@ -414,8 +414,8 @@ The following is a much better example:
 
 ```html example-good
 <div>
-  <label
-    >Fill in your name:
+  <label>
+    Fill in your name:
     <input type="text" name="name" />
   </label>
 </div>

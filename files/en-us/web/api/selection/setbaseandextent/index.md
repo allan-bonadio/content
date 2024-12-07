@@ -78,14 +78,14 @@ We also have a button that when pressed invokes a function that runs the `setBas
 
 <div>
   <p>
-    <label
-      >Anchor offset
+    <label>
+      Anchor offset
       <input name="aOffset" type="number" value="0" />
     </label>
   </p>
   <p>
-    <label
-      >Focus offset
+    <label>
+      Focus offset
       <input name="fOffset" type="number" value="0" />
     </label>
   </p>

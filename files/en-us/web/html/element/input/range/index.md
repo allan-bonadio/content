@@ -179,21 +179,21 @@ To help you from repeating code you can reuse that same {{HTMLElement("datalist"
 
 ```html
 <p>
-  <label
-    >Temperature for room 1:
+  <label>
+    Temperature for room 1:
     <input type="range" name="temp1" list="values" />
   </label>
 </p>
 <p>
-  <label
-    >Temperature for room 2:
+  <label>
+    Temperature for room 2:
     <input type="range" name="temp2" list="values" />
   </label>
 </p>
 
 <p>
-  <label
-    >Temperature for room 3:
+  <label>
+    Temperature for room 3:
     <input type="range" name="temp3" list="values" />
   </label>
 </p>

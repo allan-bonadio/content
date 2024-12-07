@@ -937,8 +937,8 @@ A property specific to text entry-related elements is the CSS {{cssxref("caret-c
 #### HTML
 
 ```html
-<label
-  >Note the red caret:
+<label>
+  Note the red caret:
   <input class="custom" size="32" />
 </label>
 ```
@@ -1004,8 +1004,8 @@ It does not suffice to have plain text adjacent to the `<input>` element. Rather
 
 <!-- explicit label -->
 <p>
-  <label
-    >Enter your name:
+  <label>
+    Enter your name:
     <input type="text" size="30" />
   </label>
 </p>
@@ -1162,8 +1162,8 @@ If you want to present a custom error message when a field fails to validate, yo
 
 ```html
 <form>
-  <label
-    >Enter username (upper and lowercase letters):
+  <label>
+    Enter username (upper and lowercase letters):
     <input type="text" name="name" required pattern="[A-Za-z]+" />
   </label>
   <button>Submit</button>
@@ -1229,8 +1229,8 @@ When including inputs, it is an accessibility requirement to add labels alongsid
 The following is an example of how to associate the `<label>` with an `<input>` element in the above style. You need to give the `<input>` an `id` attribute. The `<label>` then needs a `for` attribute whose value is the same as the input's `id`.
 
 ```html
-<label
-  >Do you like peas?
+<label>
+  Do you like peas?
   <input type="checkbox" name="peas" />
 </label>
 ```

@@ -38,8 +38,8 @@ Try changing the email address to another valid email to see it in action.
 
 ```html
 <form>
-  <label
-    >Email *:
+  <label>
+    Email *:
     <input name="email" type="email" value="test@example.com" required />
   </label>
   <span></span>

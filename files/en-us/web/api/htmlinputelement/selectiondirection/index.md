@@ -32,8 +32,8 @@ A string. It can have one of the following values:
 ### HTML
 
 ```html
-<label
-  >selectionDirection property
+<label>
+  selectionDirection property
   <input type="text" value="MDN" />
 </label>
 <p id="direction"></p>

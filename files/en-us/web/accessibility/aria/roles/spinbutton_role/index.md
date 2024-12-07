@@ -110,8 +110,8 @@ In this example, we included a negative `tabindex` to remove the buttons from th
 This could have also been written using semantic HTML, removing the need for any CSS or JavaScript and also removing the need to include and provide functionality for extraneous incrementing and decrementing buttons. The code snippet below shows the previous example without the `spinbutton` role and using semantic HTML.
 
 ```html
-<label
-  >Enter the day of the month
+<label>
+  Enter the day of the month
   <input type="number" value="1" aria-valuetext="first" min="1" max="31" />
 </label>
 ```

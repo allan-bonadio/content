@@ -375,14 +375,14 @@ First, a simple HTML form that requires you to enter your first and last name:
 ```html
 <form>
   <div>
-    <label
-      >First name:
+    <label>
+      First name:
       <input type="text" />
     </label>
   </div>
   <div>
-    <label
-      >Last name:
+    <label>
+      Last name:
       <input type="text" />
     </label>
   </div>

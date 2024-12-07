@@ -113,8 +113,8 @@ The "index.html" file and the "style.css" files are already complete:
   </head>
 
   <body>
-    <label
-      >Number of primes:
+    <label>
+      Number of primes:
       <input type="text" name="quota" value="1000000" />
     </label>
 

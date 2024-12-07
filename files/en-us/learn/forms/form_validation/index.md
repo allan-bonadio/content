@@ -111,8 +111,8 @@ This example involves a basic text {{HTMLElement("input")}} with an associated {
 
 ```html
 <form>
-  <label
-    >Would you prefer a banana or cherry?
+  <label>
+    Would you prefer a banana or cherry?
     <input name="i-like" />
   </label>
   <button>Submit</button>
@@ -149,8 +149,8 @@ Add a `required` attribute to your input, as shown below.
 
 ```html
 <form>
-  <label
-    >Would you prefer a banana or cherry? (required)
+  <label>
+    Would you prefer a banana or cherry? (required)
     <input name="i-like" required />
   </label>
   <button>Submit</button>
@@ -205,8 +205,8 @@ Update your HTML to add a [`pattern`](/en-US/docs/Web/HTML/Attributes/pattern) a
 
 ```html
 <form>
-  <label
-    >Would you prefer a banana or a cherry?
+  <label>
+    Would you prefer a banana or a cherry?
     <input name="i-like" required pattern="[Bb]anana|[Cc]herry" />
   </label>
   <button>Submit</button>
@@ -266,14 +266,14 @@ Now delete the contents of the `<body>` element, and replace it with the followi
 ```html
 <form>
   <div>
-    <label
-      >Would you prefer a banana or a cherry?
+    <label>
+      Would you prefer a banana or a cherry?
       <input type="text" name="i-like" required minlength="6" maxlength="6" />
     </label>
   </div>
   <div>
-    <label
-      >How many would you like?
+    <label>
+      How many would you like?
       <input type="number" name="amount" value="1" min="1" max="10" />
     </label>
   </div>
@@ -328,7 +328,8 @@ First, some HTML:
     <label> <input type="radio" required name="driver" value="no" />No </label>
   </fieldset>
   <p>
-    <label>How old are you?
+    <label>
+      How old are you?
       <input type="number" min="12" max="120" step="1" name="age" />
     </label>
   </p>
@@ -351,12 +352,14 @@ First, some HTML:
     </datalist>
   </p>
   <p>
-    <label>What's your email address?
+    <label>
+      What's your email address?
       <input type="email" name="email" />
     </label>
   </p>
   <p>
-    <label>Leave a short message
+    <label>
+      Leave a short message
       <textarea name="msg" maxlength="140" rows="5"/></textarea>
     </label>
   </p>
@@ -505,8 +508,8 @@ We start with the HTML {{htmlelement("form")}} below.
 
 ```html
 <form>
-  <label
-    >Email address (@example.com only):
+  <label>
+    Email address (@example.com only):
     <input type="email" />
   </label>
   <button>Submit</button>

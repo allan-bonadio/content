@@ -94,14 +94,14 @@ Consider the following form:
 ```html
 <form action="http://www.foo.com" method="GET">
   <div>
-    <label
-      >What greeting do you want to say?
+    <label>
+      What greeting do you want to say?
       <input name="say" value="Hi" />
     </label>
   </div>
   <div>
-    <label
-      >Who do you want to say it to?
+    <label>
+      Who do you want to say it to?
       <input name="to" value="Mom" />
     </label>
   </div>
@@ -142,14 +142,14 @@ Let's look at an example — this is the same form we looked at in the `GET` sec
 ```html
 <form action="http://www.foo.com" method="POST">
   <div>
-    <label
-      >What greeting do you want to say?
+    <label>
+      What greeting do you want to say?
       <input name="say" value="Hi" />
     </label>
   </div>
   <div>
-    <label
-      >Who do you want to say it to?
+    <label>
+      Who do you want to say it to?
       <input name="to" value="Mom" />
     </label>
   </div>
@@ -301,8 +301,8 @@ For example:
 ```html
 <form method="post" action="https://www.foo.com" enctype="multipart/form-data">
   <div>
-    <label
-      >Choose a file
+    <label>
+      Choose a file
       <input type="file" name="myFile" />
     </label>
   </div>

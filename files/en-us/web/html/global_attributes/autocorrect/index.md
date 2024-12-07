@@ -50,13 +50,13 @@ This example demonstrates basic `autocorrect` attribute usage.
 We include two text `<input>` elements with different values for their `autocorrect` attributes:
 
 ```html
-<label
-  >A vegetable:
+<label>
+  A vegetable:
   <input name="vegetable" type="text" autocorrect="on" />
 </label>
 
-<label
-  >A fruit:
+<label>
+  A fruit:
   <input name="fruit" type="text" autocorrect="off" />
 </label>
 ```
@@ -81,12 +81,12 @@ The bio does not specify a value for `autocorrect`, which means that it is enabl
 
 ```html
 <button id="reset">Reset</button>
-<label
-  >Name:
+<label>
+  Name:
   <input name="username" type="text" autocorrect="off" />
 </label>
-<label
-  >Biography:
+<label>
+  Biography:
   <textarea name="bio"></textarea>
 </label>
 ```

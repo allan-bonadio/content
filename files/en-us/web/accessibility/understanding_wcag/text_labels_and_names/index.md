@@ -180,8 +180,8 @@ The form element can be placed inside the {{htmlelement("label")}}, in which cas
 ### Example
 
 ```html
-<label
-  >I agree to the terms and conditions.
+<label>
+  I agree to the terms and conditions.
   <input type="checkbox" id="terms" name="terms" />
 </label>
 

@@ -304,8 +304,8 @@ The example below requires that the entered value be 4–8 characters in length.
 ```html
 <form>
   <div>
-    <label
-      >Search for user
+    <label>
+      Search for user
       <input
         type="search"
         name="q"
@@ -354,8 +354,8 @@ Let's look at an example. Say we wanted to provide a product ID search form, and
 ```html
 <form>
   <div>
-    <label
-      >Search for product by ID:
+    <label>
+      Search for product by ID:
       <input
         type="search"
         name="q"

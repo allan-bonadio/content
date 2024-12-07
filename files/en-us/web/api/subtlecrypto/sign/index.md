@@ -211,8 +211,8 @@ It is derived from [this source code on GitHub.](https://github.com/mdn/dom-exam
 The HTML defines an `<input>` element containing the text to be signed, and a button that starts the operation to create keys, sign the text and then verify the signature.
 
 ```html
-<label
-  >Enter a message to sign:
+<label>
+  Enter a message to sign:
   <input
     type="text"
     name="message"

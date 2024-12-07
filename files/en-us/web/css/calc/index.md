@@ -139,8 +139,8 @@ Here, the form itself is established to use 1/6 of the available window width. T
 ```html
 <form>
   <div id="form-box">
-    <label
-      >Type something:
+    <label>
+      Type something:
       <input type="text" name="misc" />
     </label>
   </div>

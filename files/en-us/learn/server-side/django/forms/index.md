@@ -49,8 +49,8 @@ The form is defined in HTML as a collection of elements inside `<form>…</form>
 
 ```html
 <form action="/team_name_url/" method="post">
-  <label
-    >Enter name:
+  <label>
+    Enter name:
     <input type="text" name="name_field" value="Default name for team." />
   </label>
   <input type="submit" value="OK" />

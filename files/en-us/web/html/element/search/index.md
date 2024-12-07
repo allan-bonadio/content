@@ -34,8 +34,8 @@ This example demonstrates the use of `<search>` as the container for a search wi
   <h1>Movie website</h1>
   <search>
     <form action="./search/">
-      <label
-        >Find a Movie
+      <label>
+        Find a Movie
         <input type="search" name="q" />
       </label>
       <button type="submit">Search</button>

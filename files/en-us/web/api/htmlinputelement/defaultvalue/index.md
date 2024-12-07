@@ -19,8 +19,8 @@ A string representing the default, or original, value of the `<input>` element.
 Given the following HTML:
 
 ```html
-<label
-  >Which planet were you born on?
+<label>
+  Which planet were you born on?
   <input type="text" value="Azarath" />
 </label>
 ```

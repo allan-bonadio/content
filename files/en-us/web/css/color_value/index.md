@@ -208,8 +208,8 @@ In this example, we provide a `<div>` and a text input. Entering a valid color i
 ```html
 <div></div>
 <hr />
-<label
-  >Enter a valid color value:
+<label>
+  Enter a valid color value:
   <input type="text" />
 </label>
 ```

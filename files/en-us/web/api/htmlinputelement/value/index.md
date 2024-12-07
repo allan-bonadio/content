@@ -68,8 +68,8 @@ This example demonstrates that the `value` property with an `<input>` of type {{
 We include an `<input>` of type `color`:
 
 ```html
-<label
-  >Pick a color:
+<label>
+  Pick a color:
 
   <input name="color" type="color" />
 </label>
