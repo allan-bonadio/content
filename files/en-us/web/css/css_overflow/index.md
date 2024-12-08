@@ -43,8 +43,8 @@ The example includes options to change the values for the `overflow-clip-margin`
     </label>
     <label
       ><input type="checkbox" id="wide" /> <code>width</code>:
-      <code>20em</code> or <code>40em</code></label
-    >
+      <code>20em</code> or <code>40em</code>
+    </label>
     <fieldset>
       <legend>Scroll programmatically:</legend>
       <label

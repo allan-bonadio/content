@@ -122,8 +122,8 @@ function setSST() {
             value="1"
             list="places"
             id="block" />
-          block position</label
-        >
+          block position
+        </label>
       </p>
       <p>
         <label>
