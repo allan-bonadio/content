@@ -32,14 +32,16 @@ A website specializing in providing information about planets provides a dropdow
 ```html
 <fieldset>
   <legend>Planet information</legend>
-  <label for="planetsSelect">Planet:</label>
-  <select id="planetsSelect" aria-controls="planetInfo">
-    <option value="">Select a planet…</option>
-    <option value="mercury">Mercury</option>
-    <option value="venus">Venus</option>
-    <option value="earth">Earth</option>
-    <option value="mars">Mars</option>
-  </select>
+  <label
+    >Planet:
+    <select id="planetsSelect" aria-controls="planetInfo">
+      <option value="">Select a planet…</option>
+      <option value="mercury">Mercury</option>
+      <option value="venus">Venus</option>
+      <option value="earth">Earth</option>
+      <option value="mars">Mars</option>
+    </select>
+  </label>
   <button id="renderPlanetInfoButton">Go</button>
 </fieldset>
 

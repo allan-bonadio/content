@@ -152,14 +152,20 @@ Users of assistive technology find this description helpful when trying to work 
   <fieldset>
     <legend>Choose your favorite monster</legend>
 
-    <input type="radio" id="kraken" name="monster" value="K" />
-    <label for="kraken">Kraken</label><br />
+    <label>
+      <input type="radio" name="monster" value="K" />
+      Kraken </label
+    ><br />
 
-    <input type="radio" id="sasquatch" name="monster" value="S" />
-    <label for="sasquatch">Sasquatch</label><br />
+    <label>
+      <input type="radio" name="monster" value="S" />
+      Sasquatch </label
+    ><br />
 
-    <input type="radio" id="mothman" name="monster" value="M" />
-    <label for="mothman">Mothman</label>
+    <label>
+      <input type="radio" name="monster" value="M" />
+      Mothman
+    </label>
   </fieldset>
 </form>
 ```
@@ -253,19 +259,21 @@ In an {{htmlelement("optgroup")}} element, use the `label` attribute to describe
 In this example, the `label` attribute on the {{HTMLElement('optgroup')}} elements gives a category name for the group of options.
 
 ```html
-<label for="dino-select">Choose a dinosaur:</label>
-<select id="dino-select">
-  <optgroup label="Theropods">
-    <option>Tyrannosaurus</option>
-    <option>Velociraptor</option>
-    <option>Deinonychus</option>
-  </optgroup>
-  <optgroup label="Sauropods">
-    <option>Diplodocus</option>
-    <option>Saltasaurus</option>
-    <option>Apatosaurus</option>
-  </optgroup>
-</select>
+<label
+  >Choose a dinosaur:
+  <select>
+    <optgroup label="Theropods">
+      <option>Tyrannosaurus</option>
+      <option>Velociraptor</option>
+      <option>Deinonychus</option>
+    </optgroup>
+    <optgroup label="Sauropods">
+      <option>Diplodocus</option>
+      <option>Saltasaurus</option>
+      <option>Apatosaurus</option>
+    </optgroup>
+  </select>
+</label>
 ```
 
 ## Toolbars must be labeled when there is more than one toolbar

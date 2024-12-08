@@ -82,7 +82,7 @@ Because of its influence over assistive technology, the {{HTMLElement("fieldset"
 As we saw in the previous article, The {{HTMLElement("label")}} element is the formal way to define a label for an HTML form widget. This is the most important element if you want to build accessible forms — when implemented properly, screen readers will speak a form element's label along with any related instructions, as well as it being useful for sighted users. Take this example, which we saw in the previous article:
 
 ```html
-<label>Name: <input type="text" name="user_name" /> </label>
+<label for="name">Name:</label> <input type="text" id="name" name="user_name" />
 ```
 
 With the `<label>` associated correctly with the `<input>` via its `for` attribute (which contains the `<input>` element's `id` attribute), a screen reader will read out something like "Name, edit text".
@@ -95,7 +95,8 @@ There is another way to associate a form control with a label — nest the form 
 </label>
 ```
 
-Even in such cases however, it is considered best practice to set the `for` attribute to ensure all assistive technologies understand the relationship between label and widget.
+<!-- This is no longer mentioned in MDN's aria doc pages.
+Even in such cases however, it is considered best practice to set the `for` attribute to ensure all assistive technologies understand the relationship between label and widget. -->
 
 If there is no label, or if the form control is neither implicitly nor explicitly associated with a label, a screen reader will read out something like "Edit text blank", which isn't very helpful at all.
 

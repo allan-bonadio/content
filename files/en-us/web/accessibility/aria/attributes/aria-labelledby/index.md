@@ -42,8 +42,8 @@ Note that while using `aria-labelledby` is similar in this situation to using an
 Fortunately, the HTML {{HTMLElement('input')}} with `type="checkbox"` works with native `<label>`. When feasible, use the following:
 
 ```html
-<label for="tac">
-  <input id="tac" type="checkbox" name="terms-and-conditions" />
+<label>
+  <input type="checkbox" name="terms-and-conditions" />
   I agree to the Terms and Conditions.
 </label>
 <p><a href="tac.html">Read our Terms and Conditions</a>.</p>
